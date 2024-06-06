@@ -45,7 +45,7 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 #### Table 1. Balance sheet matrix  
 
 |             |      H  | P   |CB       |G       | Row. tot|
-|:------------|:------: |:--:|:------:  |:------:|:-------:|
+|:~~~~~~~~~~~~|:~~~~~~: |:~~~~~~:|:~~~~~~:  |:~~~~~~:|:~~~~~~:|
 |Cash (money) |$$H_h$$  |    |$$-H_s$$  |        |   0     |
 |Bills        |$$B_h$$  |    |$$B_{cb}$$|$$-B_s$$|   0     |
 |Wealth       |$$-V_h$$ |    |0         |$$V_g$$ |   0     |
