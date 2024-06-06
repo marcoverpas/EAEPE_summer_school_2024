@@ -64,8 +64,8 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 |CB profit              |                     |                  |$$-r \cdot B_{cb,-1}$$   |$$r \cdot B_{cb,-1}$$|   0      |
 |Taxes                  |$$-T$$               |                  |                         |$$T$$                |   0      |
 |                       |                     |                  |                         |                     |          |
-|Change in cash         |$$-\Delta H_h$$      |                  |$$\Delta H_h$$           |                     |   0      |
-|Change in bills        |$$-\Delta B_h$$      |                  |$$-\Delta B_{cb}$$       |0                    |   0      |
+|Change in cash         |$$-\Delta H_h$$      |                  |$$\Delta H_s$$           |                     |   0      |
+|Change in bills        |$$-\Delta B_h$$      |                  |$$-\Delta B_{cb}$$       |$$ \Delta B_s$$      |   0      |
 |Column tot.            |0                    |0                 |0                        |0                    |   0      |
 
 Completing the identities derived form the tables above with behavioural equations for taxes, consumption, demand for bills, and the interest rate, we obtain the following system of difference equations:
