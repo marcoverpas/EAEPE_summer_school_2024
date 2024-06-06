@@ -22,7 +22,7 @@ The aim of this lecture is to provide a simple introduction to IO- and ECO-SFC m
 
 ## 2_Model_PC
 
-This is one of the simplest SFC toy models. It is developed in chapter 4 of Godley and Lavoie (2007), "[Monetary Economics. An Integrated Approach to Credit, Money, Income, Production and Wealth](https://link.springer.com/book/10.1007/978-1-137-08599-3)". **PC** stands for "portfolio choice", because households can hold their wealth in terms of cash and/or government bills.
+This is one of the simplest SFC toy models. It is developed in chapter 4 of "[Monetary Economics. An Integrated Approach to Credit, Money, Income, Production and Wealth](https://link.springer.com/book/10.1007/978-1-137-08599-3)". **PC** stands for "portfolio choice", because households can hold their wealth in terms of cash and/or government bills.
 
 Key assumptions are as follows:
 
@@ -40,4 +40,55 @@ Key assumptions are as follows:
 
 1. No ecosystem
 
-The structure of Model PC is quite simple [to be continued]
+The structure of Model PC is quite simple:
+
+*Equation `1`* - National income (identity): 
+$$Y = C + G $$
+where $C$ is household consumption and $G$ is government expenditure.
+
+*Equation `2`* - Disposable income (identity):
+$$YD = Y - T + r_{-1} \cdot B_{h,-1} $$
+where $r$ is the interest rate and $B_h$ is households' holdings of bills. The subscript $-1$ stands for lagged variable.
+
+*Equation `3`* - Tax revenue (behavioural):
+$$T = \theta \cdot (Y +  r_{-1} \cdot B_{h,-1} ) $$
+where $\theta$ is the average tax rate on total income before taxes.
+
+*Equation `4`* - Household wealth (identity):
+$$V_h = V_{h,-1} + YD - C  $$
+
+*Equation `5`* - Consumption (hehavioural):
+$$C = \alpha_1 \cdot YD + \alpha_2 \cdot V_{-1}  $$
+where $\alpha_1$ is the propensity to consume out of income and $\alpha_2$ is the propensity to consume out of wealth.
+
+*Equation `6`* - Cash held by households (identity):
+$$H_h = V_h - B_h  $$
+
+*Equation `7`* - Bills held by households (behavioural):
+$$\frac{B_h}{V_h} = \lambda_0 + \lambda_1 \cdot r - \lambda_2 \cdot \frac{YD}{V_h}  $$
+where $\lambda_0$ is the autonomous share of bills held by the households, $\lambda_1$ is the elasticity to the interest rate, and $\lambda_2$ captures households' liquidity preference.
+
+*Equation `8`* - Supply of bills (identity):
+$$B_s = B_{s,-1} + G - T + r_{-1} \cdot ( B_{s,-1} - B_{cb,-1} )  $$
+where $B_{cb}$ is the amount of bills held by the central bank.
+
+*Equation `9`* - Supply of cash (identity):
+$$H_s = H_{s,-1} + \Delta B_{cb} $$
+
+*Equation `10`* - Bills held by central bank (identity):
+$$B_{cb} = B_s - B_h $$
+
+*Equation `11`* - Interest rate (behavioural):
+$$r = \bar{r} $$
+where $\bar{r}$ is the policy rate set by the central bank.
+
+*Redundant equation*:
+$$H_s = H_h $$
+
+Note that any complete and coherent model must contain an equation that is *redundant*, meaning that it is logically implied by all the others (*Walras' Law*). This equation must be excluded from the model, which is the reason it is sometimes called the *hidden equation*. However, it can be conveniently used to double-check the consistency of the model.
+
+One of the advantages of using such a simple model as a basic model, is that we can calculate the (quasi) steady state solution for national income $`Y`$. We can do that by observing that in the steady state there must be no saving ($`C=YD`$) and household holdings of bills are stable ($`B_{h,−1}=B_h=B_h^{*}`$). Using these conditions and equations (2) and (3) in $`Y`$, we otain: 
+
+$$Y^{\*}= \frac{G + r \cdot B_h^{*} \cdot (1 − \theta)}{\theta}$$
+
+where $`B_h^{*}`$ is the steady-state value of household stock of bills.
