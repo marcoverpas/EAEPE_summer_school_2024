@@ -60,10 +60,10 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 |Consumption            |$$C_d$$              |$$-C_s$$          |                         |                     |   0      |
 |Government expenditure |                     |$$G$$             |                         |$$-G$$               |   0      |
 |GDP (income)           |$$Y$$                |$$-Y$$            |                         |                     |   0      |
-|                       |                     |                  |                         |                     |          |
 |Interest payments      |$$r \cdot B_{h,-1}$$ |                  |$$r \cdot B_{cb,-1}$$    |$$-r \cdot B_{s,-1}$$|   0      |
 |CB profit              |                     |                  |$$-r \cdot B_{cb,-1}$$   |$$r \cdot B_{cb,-1}$$|   0      |
 |Taxes                  |$$-T$$               |                  |                         |$$T$$                |   0      |
+|                       |                     |                  |                         |                     |          |
 |Change in cash         |$$-\Delta H_h$$      |                  |$$\Delta H_h$$           |                     |   0      |
 |Change in bills        |$$-\Delta B_h$$      |                  |$$-\Delta B_{cb}$$       |0                    |   0      |
 |Column tot.            |0                    |0                 |0                        |0                    |   0      |
