@@ -60,6 +60,7 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 |Consumption            |$$C_d$$              |$$-C_s$$          |                         |                     |   0      |
 |Government expenditure |                     |$$G$$             |                         |$$-G$$               |   0      |
 |GDP (income)           |$$Y$$                |$$-Y$$            |                         |                     |   0      |
+|                       |                     |                  |                         |                     |          |
 |Interest payments      |$$r \cdot B_{h,-1}$$ |                  |$$r \cdot B_{cb,-1}$$    |$$-r \cdot B_{s,-1}$$|   0      |
 |CB profit              |                     |                  |$$-r \cdot B_{cb,-1}$$   |$$r \cdot B_{cb,-1}$$|   0      |
 |Taxes                  |$$-T$$               |                  |                         |$$T$$                |   0      |
@@ -120,90 +121,3 @@ $$Y^{\*}= \frac{G + r \cdot B_h^{*} \cdot (1 − \theta)}{\theta}$$
 
 where $`B_h^{*}`$ is the steady-state value of household stock of bills.
 
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>H</th>
-      <th>P</th>
-      <th>CB</th>
-      <th>G</th>
-      <th>Row. tot</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Consumption</td>
-      <td style="padding: 10px;">$$C_d$$</td>
-      <td style="padding: 10px;">$$-C_s$$</td>
-      <td></td>
-      <td></td>
-      <td style="padding: 10px;">0</td>
-    </tr>
-    <tr>
-      <td>Government expenditure</td>
-      <td></td>
-      <td style="padding: 10px;">$$G$$</td>
-      <td></td>
-      <td style="padding: 10px;">$$-G$$</td>
-      <td style="padding: 10px;">0</td>
-    </tr>
-    <tr>
-      <td>GDP (income)</td>
-      <td style="padding: 10px;">$$Y$$</td>
-      <td style="padding: 10px;">$$-Y$$</td>
-      <td></td>
-      <td></td>
-      <td style="padding: 10px;">0</td>
-    </tr>
-    <tr>
-      <td>Interest payments</td>
-      <td style="padding: 10px;">$$r \cdot B_{h,-1}$$</td>
-      <td></td>
-      <td style="padding: 10px;">$$r \cdot B_{cb,-1}$$</td>
-      <td style="padding: 10px;">$$-r \cdot B_{s,-1}$$</td>
-      <td style="padding: 10px;">0</td>
-    </tr>
-    <tr>
-      <td>CB profit</td>
-      <td></td>
-      <td></td>
-      <td style="padding: 10px;">$$-r \cdot B_{cb,-1}$$</td>
-      <td style="padding: 10px;">$$r \cdot B_{cb,-1}$$</td>
-      <td style="padding: 10px;">0</td>
-    </tr>
-    <tr>
-      <td>Taxes</td>
-      <td style="padding: 10px;">$$-T$$</td>
-      <td></td>
-      <td></td>
-      <td style="padding: 10px;">$$T$$</td>
-      <td style="padding: 10px;">0</td>
-    </tr>
-    <tr>
-      <td>Change in cash</td>
-      <td style="padding: 10px;">$$-\Delta H_h$$</td>
-      <td></td>
-      <td style="padding: 10px;">$$\Delta H_h$$</td>
-      <td></td>
-      <td style="padding: 10px;">0</td>
-    </tr>
-    <tr>
-      <td>Change in bills</td>
-      <td style="padding: 10px;">$$-\Delta B_h$$</td>
-      <td></td>
-      <td style="padding: 10px;">$$-\Delta B_{cb}$$</td>
-      <td style="padding: 10px;">0</td>
-      <td style="padding: 10px;">0</td>
-    </tr>
-    <tr>
-      <td>Column tot.</td>
-      <td style="padding: 10px;">0</td>
-      <td style="padding: 10px;">0</td>
-      <td style="padding: 10px;">0</td>
-      <td style="padding: 10px;">0</td>
-      <td style="padding: 10px;">0</td>
-    </tr>
-  </tbody>
-</table>
