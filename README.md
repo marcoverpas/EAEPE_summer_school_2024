@@ -54,17 +54,17 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 
 #### Table 2. Transactions-flow matrix  
 
-|                       |H                |P       |CB    |G     | Tot|
-|:----------------------|:------:         |:-------:|:-----:|:-----:|:---:|
-|Consumption            |$$C_d$$          |$$-C_s$$|      |      |   0|
-|Government expenditure |                 |$$G$$   |      |$$-G$$|   0|
-|GDP (income)           |$$Y$$            |$$-Y$$  |      |      |   0|
-|Interest payments      |1.62             |        |0.54  |-2.16 |   0|
-|CB profit              |                 |        |-0.54 |0.54  |   0|
-|Taxes                  |$$-T$$           |        |      |$$T$$ |   0|
-|Change in cash         |$$-\Delta H_h$$  |        |0     |      |   0|
-|Change in bills        |0                |        |0     |0     |   0|
-|Column total           |0                |0       |0     |0     |   0|
+|                       |H                |P        |CB              |G     | Tot|
+|:----------------------|:------:         |:-------:|:-----:         |:-----:|:---:|
+|Consumption            |$$C_d$$          |$$-C_s$$ |                |      |   0|
+|Government expenditure |                 |$$G$$    |                |$$-G$$|   0|
+|GDP (income)           |$$Y$$            |$$-Y$$   |                |      |   0|
+|Interest payments      |1.62             |         |0.54            |-2.16 |   0|
+|CB profit              |                 |         |-0.54           |0.54  |   0|
+|Taxes                  |$$-T$$           |         |                |$$T$$ |   0|
+|Change in cash         |$$-\Delta H_h$$  |         |$$\Delta H_h$$  |      |   0|
+|Change in bills        |$$-\Delta B_h$$  |         |$$-\Delta B_cb$$|0     |   0|
+|Column total           |0                |0        |0               |0     |   0|
 
 Completing the identities derived form the tables above with behavioural equations for taxes, consumption, demand for bills, and the interest rate, we obtain the following system of difference equations:
 
