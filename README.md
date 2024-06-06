@@ -45,19 +45,19 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 #### Table 1. Balance sheet matrix  
 
 
-|             |      H  |P       |CB        |G       | Tot|
-|:------------|------:  |:------ |:------   |:------ |---:|
-|Cash (money) |$$H_h$$  |        |$$-H_s$$  |        |   0     |
-|Bills        |$$B_h$$  |        |$$B_{cb}$$|$$-B_s$$|   0     |
-|Wealth       |$$-V_h$$ |        |0         |$$V_g$$ |   0     |
-|Column tot.  |   0     |0       |0         |0       |   0     |
+|             | Households~~  | Firms~~~~~~~ |Central bank        |Government~~       | Tot|
+|:------------|------:      |:------     |:------   |:------ |---:|
+|Cash (money) |$$H_h$$      |            |$$-H_s$$  |        |   0     |
+|Bills        |$$B_h$$      |            |$$B_{cb}$$|$$-B_s$$|   0     |
+|Wealth       |$$-V_h$$     |            |0         |$$V_g$$ |   0     |
+|Column tot.  |   0         |0           |0         |0       |   0     |
 
 
 #### Table 2. Transactions-flow matrix  
 
 |                       |H                    |P                 |CB                       |G                    | Row. tot |
 |:----------------------|:---------------:    |:----------------:|:--------------:         |:--------------:     |:-------: |
-|Consumption            |$$C_d$$              |$$-C_s$$          |                         |                     |   0      |
+|Consumption            |$$/C_d$$             |$$C_s$$           |                         |                     |   0      |
 |Government expenditure |                     |$$G$$             |                         |$$-G$$               |   0      |
 |GDP (income)           |$$Y$$                |$$-Y$$            |                         |                     |   0      |
 |Interest payments      |$$r \cdot B_{h,-1}$$ |                  |$$r \cdot B_{cb,-1}$$    |$$-r \cdot B_{s,-1}$$|   0      |
