@@ -42,7 +42,7 @@ Key assumptions are as follows:
 
 The structure of Model PC is quite simple. Crucial identities of the model are derived using the balance-sheet matrix and the transaction-flow matrix. These tables are also useful to double-check model consistency in each period. 
 
-# Table 1. Balance sheet matrix  
+### Table 1. Balance sheet matrix  
 
 ```R
 |             |      H|P  |CB     |G      | Tot|
@@ -53,7 +53,7 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 |Column total |   0.00|0  |0      |0      |   0|
 ```
 
-# Table 2. Transactions-flow matrix  
+### Table 2. Transactions-flow matrix  
 
 ```R
 |                       |H      |P       |CB    |G     | Tot|
