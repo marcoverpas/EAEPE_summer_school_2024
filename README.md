@@ -57,7 +57,7 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 
 |                       |Households           |Firms             |Central bank             |Government           | Row. tot |
 |:----------------------|:---------------:    |:----------------:|:--------------:         |:--------------:     |:-------: |
-|Consumption            |$$/C_d$$             |$$C_s$$           |                         |                     |   0      |
+|Consumption            |$$-C_d$$             |$$C_s$$           |                         |                     |   0      |
 |Government expenditure |                     |$$G$$             |                         |$$-G$$               |   0      |
 |GDP (income)           |$$Y$$                |$$-Y$$            |                         |                     |   0      |
 |Interest payments      |$$r \cdot B_{h,-1}$$ |                  |$$r \cdot B_{cb,-1}$$    |$$-r \cdot B_{s,-1}$$|   0      |
