@@ -46,12 +46,12 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 
 
 
-|             |      H|P  |CB     |G      | Tot|
+|             |      H| P   |CB      |G       | Tot|
 |:------------|:------:|:--:|:------:|:------:|:---:|
-|Cash (money) |  21.62|   |-21.62 |       |   0|
-|Bills        |  64.86|   |21.62  |-86.49 |   0|
-|Wealth       | -86.49|   |0      |86.49  |   0|
-|Column total |   0.00|0  |0      |0      |   0|
+|Cash (money) |$$H_h$$ |    |$$-H_s$$|        |   0 |
+|Bills        |  64.86 |    |21.62   |-86.49  |   0 |
+|Wealth       | -86.49 |    |0       |86.49   |   0 |
+|Column total |   0.00 |0   |0       |0       |   0 |
 
 
 #### Table 2. Transactions-flow matrix (steady-state values) 
