@@ -18,7 +18,7 @@ The resurgence of interest in SFC models can be traced back to Wynne Godley's [s
 
 Over the last decade, SFC models have evolved into various forms, including Open-Economy or Multi-Area SFC models (MA-SFC), Ecological SFC models (ECO-SFC), Interacting Heterogeneous Agent-Based SFC models (AB-SFC), Input-output SFC Models (IO-SFC), and Empirical SFC Models (E-SFC).
 
-The aim of this lecture is to provide a simple introduction to IO- and ECO-SFC models by using a hand-on approach. For a theoretical introduction to SFC model, please refer to [Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth](https://link.springer.com/book/10.1007/978-1-137-08599-3) by W. Godley and M. Lavoie. For additional `R` toy models and a more accurate description of them, see my [six lectures on SFC models](https://github.com/marcoverpas/Six_lectures_on_sfc_models)
+The aim of this lecture is to provide a simple introduction to IO- and ECO-SFC models by using a hand-on approach. For a theoretical introduction to SFC model, please refer to [Monetary Economics. An Integrated Approach to Credit, Money, Income, Production and Wealth](https://link.springer.com/book/10.1007/978-1-137-08599-3) by W. Godley and M. Lavoie. For additional `R` toy models and a more accurate description of them, see my [six lectures on SFC models](https://github.com/marcoverpas/Six_lectures_on_sfc_models)
 
 ## 2_Model_PC
 
