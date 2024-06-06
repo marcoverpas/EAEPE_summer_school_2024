@@ -49,7 +49,7 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 |:------------:|:------:     |:------:    |:------:     |:------:   |:---:     |
 |Cash (money)  |$$H_h$$      |            |$$-H_s$$     |           |   0      |
 |Bills         |$$B_h$$      |            |$$B_{cb}$$   |$$-B_s$$   |   0      |
-|Wealth        |$$-V_h$$     |            |0            |$$V_g$$    |   0      |
+|Wealth        |$$-V_h$$     |            |             |$$V_g$$    |   0      |
 |Column tot.   |   0         |0           |0            |0          |   0      |
 
 
