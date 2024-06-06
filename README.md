@@ -22,7 +22,7 @@ The aim of this lecture is to provide a simple introduction to IO- and ECO-SFC m
 
 ## 2_Model_PC
 
-This is one of the simplest SFC toy models. It is developed in chapter 4 of "[Monetary Economics. An Integrated Approach to Credit, Money, Income, Production and Wealth](https://link.springer.com/book/10.1007/978-1-137-08599-3)". **PC** stands for "portfolio choice", because households can hold their wealth in terms of cash and/or government bills.
+This is one of the simplest SFC toy models and will we use it as our benchmark model. It is developed in chapter 4 of "[Monetary Economics. An Integrated Approach to Credit, Money, Income, Production and Wealth](https://link.springer.com/book/10.1007/978-1-137-08599-3)". **PC** stands for "portfolio choice", because households can hold their wealth in terms of cash and/or government bills.
 
 Key assumptions are as follows:
 
@@ -40,7 +40,36 @@ Key assumptions are as follows:
 
 1. No ecosystem
 
-The structure of Model PC is quite simple:
+The structure of Model PC is quite simple. Crucial identities of the model are derived using the balance-sheet matrix and the transaction-flow matrix. These tables are also useful to double-check model consistency in each period. 
+
+# Table 1. Balance sheet matrix  
+
+```R
+|             |      H|P  |CB     |G      | Tot|
+|:------------|------:|:--|:------|:------|---:|
+|Cash (money) |  21.62|   |-21.62 |       |   0|
+|Bills        |  64.86|   |21.62  |-86.49 |   0|
+|Wealth       | -86.49|   |0      |86.49  |   0|
+|Column total |   0.00|0  |0      |0      |   0|
+```
+
+# Table 2. Transactions-flow matrix  
+
+```R
+|                       |H      |P       |CB    |G     | Tot|
+|:----------------------|:------|:-------|:-----|:-----|---:|
+|Consumption            |-86.49 |86.49   |      |      |   0|
+|Government expenditure |       |20      |      |-20   |   0|
+|GDP (income)           |106.49 |-106.49 |      |      |   0|
+|Interest payments      |1.62   |        |0.54  |-2.16 |   0|
+|CB profit              |       |        |-0.54 |0.54  |   0|
+|Taxes                  |-21.62 |        |      |21.62 |   0|
+|Change in cash         |0      |        |0     |      |   0|
+|Change in bills        |0      |        |0     |0     |   0|
+|Column total           |0      |0       |0     |0     |   0|
+```
+
+Completing the identities derived form the tables above with behavioural equations for taxes, consumption, demand for bills, and the interest rate, we obtain the following system of difference equations:
 
 *Equation `1`* - National income (identity): 
 $$Y = C + G $$
