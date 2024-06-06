@@ -121,3 +121,4 @@ $$Y^{\*}= \frac{G + r \cdot B_h^{*} \cdot (1 − \theta)}{\theta}$$
 
 where $`B_h^{*}`$ is the steady-state value of household stock of bills.
 
+[to be continued...]
