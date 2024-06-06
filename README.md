@@ -42,33 +42,29 @@ Key assumptions are as follows:
 
 The structure of Model PC is quite simple. Crucial identities of the model are derived using the balance-sheet matrix and the transaction-flow matrix. These tables are also useful to double-check model consistency in each period. 
 
-#### Table 1. Balance sheet matrix (steady-state values) 
-
-
+#### Table 1. Balance sheet matrix  
 
 |             |      H  | P   |CB      |G       | Tot|
 |:------------|:------: |:--:|:------:|:------:|:---:|
 |Cash (money) |$$H_h$$  |    |$$-H_s$$|        |   0 |
 |Bills        |$$B_h$$  |    |$$B_cb$$|$$-B_s$$|   0 |
 |Wealth       |$$-V_h$$ |    |0       |$$V_g$$ |   0 |
-|Column total |   0.00  |0   |0       |0       |   0 |
+|Column total |   0     |0   |0       |0       |   0 |
 
 
-#### Table 2. Transactions-flow matrix (steady-state values) 
+#### Table 2. Transactions-flow matrix  
 
-```R
-|                       |H      |P       |CB    |G     | Tot|
-|:----------------------|:------|:-------|:-----|:-----|---:|
-|Consumption            |-86.49 |86.49   |      |      |   0|
-|Government expenditure |       |20      |      |-20   |   0|
-|GDP (income)           |106.49 |-106.49 |      |      |   0|
-|Interest payments      |1.62   |        |0.54  |-2.16 |   0|
-|CB profit              |       |        |-0.54 |0.54  |   0|
-|Taxes                  |-21.62 |        |      |21.62 |   0|
-|Change in cash         |0      |        |0     |      |   0|
-|Change in bills        |0      |        |0     |0     |   0|
-|Column total           |0      |0       |0     |0     |   0|
-```
+|                       |H                |P       |CB    |G     | Tot|
+|:----------------------|:------:         |:-------:|:-----:|:-----:|:---:|
+|Consumption            |$$C_d$$          |$$-C_s$$|      |      |   0|
+|Government expenditure |                 |$$G$$   |      |$$-G$$|   0|
+|GDP (income)           |$$Y$$            |$$-Y$$  |      |      |   0|
+|Interest payments      |1.62             |        |0.54  |-2.16 |   0|
+|CB profit              |                 |        |-0.54 |0.54  |   0|
+|Taxes                  |$$-T$$           |        |      |$$T$$ |   0|
+|Change in cash         |$$-\Delta H_h$$  |        |0     |      |   0|
+|Change in bills        |0                |        |0     |0     |   0|
+|Column total           |0                |0       |0     |0     |   0|
 
 Completing the identities derived form the tables above with behavioural equations for taxes, consumption, demand for bills, and the interest rate, we obtain the following system of difference equations:
 
