@@ -161,7 +161,7 @@ where $\mathrm{B_c} = [ B_{c1}  B_{c2} ]$ and $B_{c1} + B_{c2} = 1$.
 
 $$**\text{B}_g** = **\bar{\text{B}}_g** $$  
 
-where $B_{g1}+B_{g2}=1$.
+where $\mathrm{B_g} = [ B_{g1}  B_{g2} ]$ and $B_{g1} + B_{g2} = 1$.
 
 *Equation `14`* - Column vector of *final demands in real terms* (identity):
 
