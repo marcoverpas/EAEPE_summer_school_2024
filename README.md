@@ -149,7 +149,7 @@ Notice that scalars are represented using *italic characters*, whereas vectors a
 
 *Equation `12`* - Column vector of *unit prices of reproduction* (behavioural):
 
-$$**\text{p}** = \frac{w}{**\text{\pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
+$$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
 
 *Equation `13`* - Column vector defining *composition of real consumption* (behavioural):
 
