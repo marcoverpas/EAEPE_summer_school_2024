@@ -161,7 +161,7 @@ where $\mathrm{B_c} = [ B_{c1} \text{ }  B_{c2} ]$ and $B_{c1} + B_{c2} = 1$.
 
 $$**\text{B}_g** = **\bar{\text{B}}_g** $$  
 
-where $\mathrm{B_g} = [ B_{g1}  B_{g2} ]$ and $B_{g1} + B_{g2} = 1$.
+where $\mathrm{B_g} = [ B_{g1} \text{ } B_{g2} ]$ and $B_{g1} + B_{g2} = 1$.
 
 *Equation `14`* - Column vector of *final demands in real terms* (identity):
 
@@ -181,6 +181,8 @@ $$Y = **\text{p}^T** \cdot **\text{d}** $$
 
 $$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
 
+where $w$ is the (uniform) wage rate, $\mathrm{pr}$ is the vector of labour productivities, and $\mu$ is the (uniform) mark-up.
+
 *Equation `17`* - *Average consumer price* (identity):
 
 $$p_c = **\text{p}^T** \cdot **\text{B}_c** $$  
@@ -192,8 +194,12 @@ $$p_g = **\text{p}^T** \cdot **\text{B}_g** $$
 *Equation `5.A`* - *Real consumption function* (behavioural):
 $$c = \alpha_1 \cdot \left( \frac{YD}{p_c} - \pi \cdot \frac{V_{-1}}{p_c} \right) + \alpha_2 \cdot \frac{V_{-1}}{p_{c,-1}} $$
 
+where $\pi$ is the rate of growth of the consumer price index (inflation rate), as consumers are assumed not to suffer from monetary illusion.
+
 *Equation `19`* - *Propensity to consume out of income* (behavioural):
 $$\alpha_1 = \alpha_{11} - \alpha_{12} \cdot r_{-1}$$
+
+where $\alpha_{11}$ and $\alpha_{12}$ are positive coefficients.
 
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
