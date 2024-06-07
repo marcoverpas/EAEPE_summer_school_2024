@@ -179,7 +179,7 @@ $$Y = **\text{p}^T** \cdot **\text{d}** $$
 
 *Equation (`16`)* - Column vector of *unit prices of reproduction* (behavioural):
 
-$$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
+$$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}**^T \cdot **\text{A}** ) \cdot (1 + \mu) $$
 
 where $w$ is the (uniform) wage rate, $\mathrm{pr}$ is the vector of labour productivities, and $\mu$ is the (uniform) profit rate.
 
@@ -204,5 +204,16 @@ where $\alpha_{11}$ and $\alpha_{12}$ are positive coefficients.
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
 Equations (`12`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
+
+In addition to Table 1 and Table 2, Model IO-PC can also be used to examine cross-industry interdependencies. The  
+
+#### Table 3. Simplified input-output matrix  
+
+|                        |  Industry 1 (demand)            |  Industry 2 (demand)           | Final demand    |Out                             |
+|:-----------------------|:-----:                          |:-----:                         |:-----:          |:------:                        |
+|Inudstry 1 (production) | $x_1 \cdot a_{11} \cdot p_1 $   | $x_2 \cdot a_{12} \cdot p_1 $  |$d_1 \cdot p_1$  |$x_1 \cdot p_1$                 |
+|Industry 2 (production) | $x_1 \cdot a_{21} \cdot p_2 $   | $x_2 \cdot a_{22} \cdot p_2 $  |$d_2 \cdot p_2$  |$x_2 \cdot p_2$                 |
+|Value added             | $yn_1$                          | $yn_2$                         |$yn$             |                                |
+|Output                  | $x_1 \cdot p_1$                 | $x_2 \cdot p_2$                |                 |$\mathrm{p}^T \cdot \mathrm{x}$ |
 
 [to be continued]
