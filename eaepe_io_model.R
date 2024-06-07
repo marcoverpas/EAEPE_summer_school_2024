@@ -200,7 +200,7 @@ for (j in 1:nScenarios){
       
       #G) Government
       
-      #Tax payments - eq. 3 ***
+      #Tax payments - eq. 3 
       t[j,i] = theta*(y[j,i] + r[j,i-1]*b_h[j,i-1])
       
       #Supply of government bills - eq. 8
