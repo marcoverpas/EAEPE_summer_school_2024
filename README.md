@@ -1,4 +1,4 @@
-# 17th EAEPE Summer School
+# 17th EAEPE Summer School [work in progress]
 
 This repository includes the material prepared for the [17th EAEPE Summer School, Rome, 1-4 July](https://eaepe.org/?page=events&side=summer_school&sub=eaepe_summer_school). Specifically, it contains the `R` files that replicate the excercises made in the late morning session of Tuesday (2 July). 
 
