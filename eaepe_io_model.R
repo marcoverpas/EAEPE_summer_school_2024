@@ -228,20 +228,20 @@ for (j in 1:nScenarios){
 
 #ONSISTENCY CHECK (REDUNDANT EQUATION) AND PLOTS
 
-#Define layour
+#Define layout
 layout(matrix(c(1,2,3,4), 2, 2, byrow = TRUE))
 par(mar = c(5.1+1, 4.1+1, 4.1+1, 2.1+1))
 
 #Figure 1: redundant equation
 plot(h_s[1,2:nPeriods]-h_h[1,2:nPeriods], type="l", col="green",lwd=3,lty=1,font.main=1,cex.main=1.5,
      main=expression("Consistency check: " * italic(H[phantom("")]["s"]) - italic(H[phantom("")]["h"])),
-     cex.axis=1.5,cex.lab=1.5,ylab = '£',
+     cex.axis=1.5,cex.lab=1.5,ylab = 'Â£',
      xlab = 'Time',ylim = range(-1,1))
 
 #Figure 2: disposable income and consumption
 plot(yd[1,2:45],type="l", col=1, lwd=2, lty=1, font.main=1,cex.main=1.5,
      main="Figure 2  Disposable income and consumption \n under baseline scenario",
-     ylab = '£',xlab = 'Time',ylim = range(min(cons[1,2:45]*p_c[1,2:45]),max(yd[1,2:45])),
+     ylab = 'Â£',xlab = 'Time',ylim = range(min(cons[1,2:45]*p_c[1,2:45]),max(yd[1,2:45])),
      cex.axis=1.5,cex.lab=1.5)
 lines(cons[1,2:45]*p_c[1,2:45],type="l",lwd=2,lty=2,col="red1")
 legend("right",c("Disposable income","Nom. consumption"),  bty = "n",
