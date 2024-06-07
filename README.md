@@ -155,7 +155,7 @@ Notice that scalars are represented using *italic characters*, whereas vectors a
 
 $$**\text{B}_c** = **\bar{\text{B}}_c**  $$  
 
-where $\text{B_c}$ = $[ B_{c1}, B_{c2} ]$ and $B_{c1} + B_{c2} = 1$.
+where `$\text{B_c}$` = $[ B_{c1}, B_{c2} ]$ and $B_{c1} + B_{c2} = 1$.
 
 *Equation `13`* - Column vector defining *composition of real government expenditure* (behavioural):
 
