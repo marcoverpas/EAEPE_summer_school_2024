@@ -143,7 +143,7 @@ In comparison to Model PC, additional assumptions include:
 
 1. Each industry uses only one technique to produce one product
 
-1. Prices are set based on reproduction conditions
+1. Prices are determined by reproduction conditions
 
 1. The composition of both consumption and government spending is exogenously defined
 
