@@ -47,9 +47,11 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 
 |              | Households  | Firms      |Central bank |Government | Row. tot |
 |:------------:|:------:     |:------:    |:------:     |:------:   |:---:     |
+|              |             |            |             |           |          |
 |Cash (money)  |$$H_h$$      |            |$$-H_s$$     |           |   0      |
 |Bills         |$$B_h$$      |            |$$B_{cb}$$   |$$-B_s$$   |   0      |
 |Wealth        |$$-V_h$$     |            |             |$$V_g$$    |   0      |
+|              |             |            |             |           |          |
 |Column tot.   |   0         |0           |0            |0          |   0      |
 
 
@@ -57,6 +59,7 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 
 |                       |Households           |Firms             |Central bank             |Government           | Row. tot |
 |:----------------------|:---------------:    |:----------------:|:--------------:         |:--------------:     |:-------: |
+|                       |                     |                  |                         |                     |          |
 |Consumption            |$$-C_d$$             |$$C_s$$           |                         |                     |   0      |
 |Government expenditure |                     |$$G$$             |                         |$$-G$$               |   0      |
 |GDP (income)           |$$Y$$                |$$-Y$$            |                         |                     |   0      |
@@ -66,6 +69,7 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 |                       |                     |                  |                         |                     |          |
 |Change in cash         |$$-\Delta H_h$$      |                  |$$\Delta H_s$$           |                     |   0      |
 |Change in bills        |$$-\Delta B_h$$      |                  |$$-\Delta B_{cb}$$       |$$\Delta B_s$$       |   0      |
+|                       |                     |                  |                         |                     |          |
 |Column tot.            |0                    |0                 |0                        |0                    |   0      |
 
 Completing the identities derived form the tables above with behavioural equations for taxes, consumption, demand for bills, and the interest rate, we obtain the following system of difference equations:
