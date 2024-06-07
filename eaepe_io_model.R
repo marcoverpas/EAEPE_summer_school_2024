@@ -20,7 +20,7 @@ if(!is.null(dev.list())) dev.off()
 cat("\014")
 
 #Set directory/folder
-setwd("C:/Users/Marco Passarella/Google Drive/New Conferences/EAEPE Summer School 2024")
+#setwd("C:/Users/Marco Passarella/Google Drive/New Conferences/EAEPE Summer School 2024")
 
 #set number of periods
 nPeriods = 90
