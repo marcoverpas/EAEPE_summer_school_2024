@@ -181,7 +181,7 @@ $$Y = **\text{p}^T** \cdot **\text{d}** $$
 
 $$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
 
-where $w$ is the (uniform) wage rate, $\mathrm{pr}$ is the vector of labour productivities, and $\mu$ is the (uniform) mark-up.
+where $w$ is the (uniform) wage rate, $\mathrm{pr}$ is the vector of labour productivities, and $\mu$ is the (uniform) profit rate.
 
 *Equation `17`* - *Average consumer price* (identity):
 
