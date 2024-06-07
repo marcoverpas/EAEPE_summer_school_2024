@@ -211,9 +211,10 @@ In addition to Table 1 and Table 2, Model IO-PC can also be used to examine cros
 
 |                        |  Industry 1 (demand)            |  Industry 2 (demand)           | Final demand    |Out                             |
 |:-----------------------|:-----:                          |:-----:                         |:-----:          |:------:                        |
-|Inudstry 1 (production) | $x_1 \cdot a_{11} \cdot p_1 $   | $x_2 \cdot a_{12} \cdot p_1 $  |$d_1 \cdot p_1$  |$x_1 \cdot p_1$                 |
-|Industry 2 (production) | $x_1 \cdot a_{21} \cdot p_2 $   | $x_2 \cdot a_{22} \cdot p_2 $  |$d_2 \cdot p_2$  |$x_2 \cdot p_2$                 |
+|:                       |                                 |                                |                 |                                |
+|Inudstry 1 (production) | $p_1 \cdot x_1 \cdot a_{11} $   | $p_1 \cdot x_2 \cdot a_{12} $  |$p_1 \cdot d_1$  |$p_1 \cdot x_1$                 |
+|Industry 2 (production) | $p_2 \cdot a_{21} \cdot x_1 $   | $p_2 \cdot a_{22} \cdot x_2 $  |$p_2 \cdot d_2$  |$p_2 \cdot x_2$                 |
 |Value added             | $yn_1$                          | $yn_2$                         |$yn$             |                                |
-|Output                  | $x_1 \cdot p_1$                 | $x_2 \cdot p_2$                |                 |$\mathrm{p}^T \cdot \mathrm{x}$ |
+|Output                  | $p_1 \cdot x_1$                 | $p_2 \cdot x_2$                |                 |$\mathrm{p}^T \cdot \mathrm{x}$ |
 
 [to be continued]
