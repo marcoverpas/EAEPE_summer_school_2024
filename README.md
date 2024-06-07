@@ -193,4 +193,6 @@ $$\alpha_1 = \alpha_{11} - \alpha_{12} \cdot r_{-1}$$
 
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
-Equations `12` to `19` are additional ones. Equations `1.A` and `5.A` replace equations `1` and `5` of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found ...
+Equations `12` to `19` are additional ones. Equations `1.A` and `5.A` replace equations `1` and `5` of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
+
+\[to be continued]
