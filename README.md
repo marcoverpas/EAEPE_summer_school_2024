@@ -147,9 +147,9 @@ It is also assumed that the marginal propensity to consume out of income is a ne
 
 Notice that scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
 
-*Equation `12`* - Column vector of exogenously-set *unit prices* (behavioural):
+*Equation `12`* - Column vector of *unit prices of reproduction* (behavioural):
 
-$$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
+$$**\text{p}** = \frac{w}{**\text{\pi}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
 
 *Equation `13`* - Column vector defining *composition of real consumption* (behavioural):
 
@@ -190,6 +190,9 @@ $$C = p_c \cdot c $$
 *Equation `20`* - *Nominal government spending* (identity):
 $$G = p_g \cdot g $$
 
+*Equation `21`* - *Propensity to consume out of income* (behavioural):
+$$\alpha_1 = \alpha_{11} - \alpha_{12} \cdot r_{-1}$$
+
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
-While `12` to `20` are additional equations, equations `1.A` and `5.A` replace equations `1` and `5` of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found
+While `12` to `21` are additional equations, equations `1.A` and `5.A` replace equations `1` and `5` of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found ...
