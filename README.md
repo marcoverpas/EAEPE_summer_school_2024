@@ -181,18 +181,12 @@ $$p_c = **\text{p}^T** \cdot **\text{B}_c** $$
 
 $$p_g = **\text{p}^T** \cdot **\text{B}_g** $$  
 
-*Equation `19`* - *Real consumption function* (behavioural):
+*Equation `5.A`* - *Real consumption function* (behavioural):
 $$c = \alpha_1 \cdot \left( \frac{YD}{p_c} - \pi \cdot \frac{V_{-1}}{p_c} \right) + \alpha_2 \cdot \frac{V_{-1}}{p_{c,-1}} $$
 
-*Equation `5.A`* - *Nominal consumption* (identity):
-$$C = p_c \cdot c $$
-
-*Equation `20`* - *Nominal government spending* (identity):
-$$G = p_g \cdot g $$
-
-*Equation `21`* - *Propensity to consume out of income* (behavioural):
+*Equation `19`* - *Propensity to consume out of income* (behavioural):
 $$\alpha_1 = \alpha_{11} - \alpha_{12} \cdot r_{-1}$$
 
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
-While `12` to `21` are additional equations, equations `1.A` and `5.A` replace equations `1` and `5` of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found ...
+While `12` to `21` are additional equations, equation `1.A` and `5.A` replace equations `1` and `5` of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found ...
