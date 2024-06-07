@@ -125,4 +125,71 @@ The model can be easily simulated by identifying the coefficients and attributin
 
 ## 3_Model_IO-PC
 
-[...]
+There are currently only a few prototype input-output SFC models, despite recent progress (Berg, Hartley, and Richters, 2015; Jackson and Jackson, 2021, 2023; Valdecantos, 2023). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing both technical progress (Veronese Passarella, 2023) and the interaction of the ecosystem with the economy (Hardt and O’Neill, 2017).
+
+Model IO-PC is an input-output extension of Model PC, where **IO** stands for "input-output structure".
+
+In comparison to Model PC, additional assumptions include:
+
+1. Two industries are considered (within the firms sector)
+
+1. Only circulating capital is used
+
+1. Technical coefficients are fixed
+
+1. Each industry uses only one technique to produce one product
+
+1. Prices are set based on reproduction conditions
+
+1. The composition of both consumption and government spending is exogenously defined
+
+It is also assumed that the marginal propensity to consume out of income is a negative function of the interest rate (as an increase in $r$ redistributes income from the wage earners to the rentiers, and the latter are marked by a lower propensity to consume). Based on these assumptions, a few additional equations are required to transform Model PC into Model IO-PC.
+
+Notice that scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
+
+*Equation `12`* - Column vector of exogenously-set *unit prices* (behavioural):
+
+$$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
+
+*Equation `13`* - Column vector defining *composition of real consumption* (behavioural):
+
+$$**\text{B}_c** = **\bar{\text{B}}_c**  $$  
+
+*Equation `14`* - Column vector defining *composition of real government expenditure* (behavioural):
+
+$$**\text{B}_g** = **\bar{\text{B}}_g** $$  
+
+*Equation `15`* - *Average consumer price* (identity):
+
+$$p_c = **\text{p}^T** \cdot **\text{B}_c** $$  
+
+*Equation `16`* - *Average price for the government* (identity):
+
+$$p_g = **\text{p}^T** \cdot **\text{B}_g** $$  
+
+*Equation `17`* - Column vector of *final demands in real terms* (identity):
+
+$$**\text{d}** = **\text{B}_c** \cdot c + **\text{B}_g** \cdot g $$  
+
+*Equation `18`* - Column vector of *real gross outputs* (identity):
+
+$$**\text{x}** = **\text{A}** \cdot **\text{x}** + **\text{d}**, ~ with: **\text{A}**= \left(\begin{array}{cc} a_{11} & a_{12} \\
+                                                                        a_{21} & a_{22}
+                                                                        \end{array}\right) $$  
+
+*Equation `1.A`* - Modified equation for *national income* (identity):
+
+$$Y = **\text{p}^T** \cdot **\text{d}** $$
+
+*Equation `19`* - *Real consumption function* (behavioural):
+$$c = \alpha_1 \cdot \left( \frac{YD}{p_c} - \pi \cdot \frac{V_{-1}}{p_c} \right) + \alpha_2 \cdot \frac{V_{-1}}{p_{c,-1}} $$
+
+*Equation `5.A`* - *Nominal consumption* (identity):
+$$C = p_c \cdot c $$
+
+*Equation `20`* - *Nominal government spending* (identity):
+$$G = p_g \cdot g $$
+
+Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
+
+While `12` to `20` are additional equations, equations `1.A` and `5.A` replace equations `1` and `5` of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found
