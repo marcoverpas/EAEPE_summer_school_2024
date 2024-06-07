@@ -155,9 +155,13 @@ Notice that scalars are represented using *italic characters*, whereas vectors a
 
 $$**\text{B}_c** = **\bar{\text{B}}_c**  $$  
 
+where $B_{c1}+B_{c2}=1$.
+
 *Equation `13`* - Column vector defining *composition of real government expenditure* (behavioural):
 
 $$**\text{B}_g** = **\bar{\text{B}}_g** $$  
+
+where $B_{g1}+B_{g2}=1$.
 
 *Equation `14`* - Column vector of *final demands in real terms* (identity):
 
