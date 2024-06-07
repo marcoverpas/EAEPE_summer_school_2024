@@ -74,7 +74,7 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 
 Completing the identities derived form the tables above with behavioural equations for taxes, consumption, demand for bills, and the interest rate, we obtain the following system of difference equations:
 
-*Equation `1`* - National income (identity): 
+*Equation (`1`)* - National income (identity): 
 $$Y = C + G $$
 where $C$ is household consumption and $G$ is government expenditure.
 
