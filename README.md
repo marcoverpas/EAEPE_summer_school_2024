@@ -147,31 +147,19 @@ It is also assumed that the marginal propensity to consume out of income is a ne
 
 Notice that scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
 
-*Equation `12`* - Column vector of *unit prices of reproduction* (behavioural):
-
-$$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
-
-*Equation `13`* - Column vector defining *composition of real consumption* (behavioural):
+*Equation `12`* - Column vector defining *composition of real consumption* (behavioural):
 
 $$**\text{B}_c** = **\bar{\text{B}}_c**  $$  
 
-*Equation `14`* - Column vector defining *composition of real government expenditure* (behavioural):
+*Equation `13`* - Column vector defining *composition of real government expenditure* (behavioural):
 
 $$**\text{B}_g** = **\bar{\text{B}}_g** $$  
 
-*Equation `15`* - *Average consumer price* (identity):
-
-$$p_c = **\text{p}^T** \cdot **\text{B}_c** $$  
-
-*Equation `16`* - *Average price for the government* (identity):
-
-$$p_g = **\text{p}^T** \cdot **\text{B}_g** $$  
-
-*Equation `17`* - Column vector of *final demands in real terms* (identity):
+*Equation `14`* - Column vector of *final demands in real terms* (identity):
 
 $$**\text{d}** = **\text{B}_c** \cdot c + **\text{B}_g** \cdot g $$  
 
-*Equation `18`* - Column vector of *real gross outputs* (identity):
+*Equation `15`* - Column vector of *real gross outputs* (identity):
 
 $$**\text{x}** = **\text{A}** \cdot **\text{x}** + **\text{d}**, ~ with: **\text{A}**= \left(\begin{array}{cc} a_{11} & a_{12} \\
                                                                         a_{21} & a_{22}
@@ -180,6 +168,18 @@ $$**\text{x}** = **\text{A}** \cdot **\text{x}** + **\text{d}**, ~ with: **\text
 *Equation `1.A`* - Modified equation for *national income* (identity):
 
 $$Y = **\text{p}^T** \cdot **\text{d}** $$
+
+*Equation `16`* - Column vector of *unit prices of reproduction* (behavioural):
+
+$$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
+
+*Equation `17`* - *Average consumer price* (identity):
+
+$$p_c = **\text{p}^T** \cdot **\text{B}_c** $$  
+
+*Equation `18`* - *Average price for the government* (identity):
+
+$$p_g = **\text{p}^T** \cdot **\text{B}_g** $$  
 
 *Equation `19`* - *Real consumption function* (behavioural):
 $$c = \alpha_1 \cdot \left( \frac{YD}{p_c} - \pi \cdot \frac{V_{-1}}{p_c} \right) + \alpha_2 \cdot \frac{V_{-1}}{p_{c,-1}} $$
