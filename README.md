@@ -121,7 +121,7 @@ $$Y^{\*}= \frac{G + r \cdot B_h^{*} \cdot (1 − \theta)}{\theta}$$
 
 where $`B_h^{*}`$ is the steady-state value of household stock of bills.
 
-The model can be easily simulated by identifying the coefficients and attributing an initial value to government spending ($G=20$). A simple `R` code replicating Model PC can be found [here](https://github.com/marcoverpas/Six_lectures_on_sfc_models/blob/main/PC_model_from_scratch.R). 
+The model can be easily simulated by identifying the coefficients and attributing an initial value to government spending ($G=G_0$, with $G_0>0$). A simple `R` code replicating Model PC can be found [here](https://github.com/marcoverpas/Six_lectures_on_sfc_models/blob/main/PC_model_from_scratch.R). 
 
 ## 3_Model_IO-PC
 
