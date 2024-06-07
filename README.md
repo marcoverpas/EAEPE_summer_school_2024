@@ -78,39 +78,39 @@ Completing the identities derived form the tables above with behavioural equatio
 $$Y = C + G $$
 where $C$ is household consumption and $G$ is government expenditure.
 
-*Equation `2`* - Disposable income (identity):
+*Equation (`2`)* - Disposable income (identity):
 $$YD = Y - T + r_{-1} \cdot B_{h,-1} $$
 where $r$ is the interest rate and $B_h$ is households' holdings of bills. The subscript $-1$ stands for lagged variable.
 
-*Equation `3`* - Tax revenue (behavioural):
+*Equation (`3`)* - Tax revenue (behavioural):
 $$T = \theta \cdot (Y +  r_{-1} \cdot B_{h,-1} ) $$
 where $\theta$ is the average tax rate on total income before taxes.
 
-*Equation `4`* - Household wealth (identity):
+*Equation (`4`)* - Household wealth (identity):
 $$V_h = V_{h,-1} + YD - C  $$
 
-*Equation `5`* - Consumption (hehavioural):
+*Equation (`5`)* - Consumption (hehavioural):
 $$C = \alpha_1 \cdot YD + \alpha_2 \cdot V_{-1}  $$
 where $\alpha_1$ is the propensity to consume out of income and $\alpha_2$ is the propensity to consume out of wealth.
 
-*Equation `6`* - Cash held by households (identity):
+*Equation (`6`)* - Cash held by households (identity):
 $$H_h = V_h - B_h  $$
 
-*Equation `7`* - Bills held by households (behavioural):
+*Equation (`7`)* - Bills held by households (behavioural):
 $$\frac{B_h}{V_h} = \lambda_0 + \lambda_1 \cdot r - \lambda_2 \cdot \frac{YD}{V_h}  $$
 where $\lambda_0$ is the autonomous share of bills held by the households, $\lambda_1$ is the elasticity to the interest rate, and $\lambda_2$ captures households' liquidity preference.
 
-*Equation `8`* - Supply of bills (identity):
+*Equation (`8`)* - Supply of bills (identity):
 $$B_s = B_{s,-1} + G - T + r_{-1} \cdot ( B_{s,-1} - B_{cb,-1} )  $$
 where $B_{cb}$ is the amount of bills held by the central bank.
 
-*Equation `9`* - Supply of cash (identity):
+*Equation (`9`)* - Supply of cash (identity):
 $$H_s = H_{s,-1} + \Delta B_{cb} $$
 
-*Equation `10`* - Bills held by central bank (identity):
+*Equation (`10`)* - Bills held by central bank (identity):
 $$B_{cb} = B_s - B_h $$
 
-*Equation `11`* - Interest rate (behavioural):
+*Equation (`11`)* - Interest rate (behavioural):
 $$r = \bar{r} $$
 where $\bar{r}$ is the policy rate set by the central bank.
 
@@ -151,58 +151,58 @@ It is also assumed that the marginal propensity to consume out of income is a ne
 
 Notice that scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
 
-*Equation `12`* - Column vector defining *composition of real consumption* (behavioural):
+*Equation (`12`)* - Column vector defining *composition of real consumption* (behavioural):
 
 $$**\text{B}_c** = **\bar{\text{B}}_c**  $$  
 
 where $\mathrm{B_c} = [ B_{c1} \text{ }  B_{c2} ]$ and $B_{c1} + B_{c2} = 1$.
 
-*Equation `13`* - Column vector defining *composition of real government expenditure* (behavioural):
+*Equation (`13`)* - Column vector defining *composition of real government expenditure* (behavioural):
 
 $$**\text{B}_g** = **\bar{\text{B}}_g** $$  
 
 where $\mathrm{B_g} = [ B_{g1} \text{ } B_{g2} ]$ and $B_{g1} + B_{g2} = 1$.
 
-*Equation `14`* - Column vector of *final demands in real terms* (identity):
+*Equation (`14`)* - Column vector of *final demands in real terms* (identity):
 
 $$**\text{d}** = **\text{B}_c** \cdot c + **\text{B}_g** \cdot g $$  
 
-*Equation `15`* - Column vector of *real gross outputs* (identity):
+*Equation (`15`)* - Column vector of *real gross outputs* (identity):
 
 $$**\text{x}** = **\text{A}** \cdot **\text{x}** + **\text{d}**, ~ with: **\text{A}**= \left(\begin{array}{cc} a_{11} & a_{12} \\
                                                                         a_{21} & a_{22}
                                                                         \end{array}\right) $$  
 
-*Equation `1.A`* - Modified equation for *national income* (identity):
+*Equation (`1.A`)* - Modified equation for *national income* (identity):
 
 $$Y = **\text{p}^T** \cdot **\text{d}** $$
 
-*Equation `16`* - Column vector of *unit prices of reproduction* (behavioural):
+*Equation (`16`)* - Column vector of *unit prices of reproduction* (behavioural):
 
 $$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}** \cdot **\text{A}** ) \cdot (1 + \mu) $$
 
 where $w$ is the (uniform) wage rate, $\mathrm{pr}$ is the vector of labour productivities, and $\mu$ is the (uniform) profit rate.
 
-*Equation `17`* - *Average consumer price* (identity):
+*Equation (`17`)* - *Average consumer price* (identity):
 
 $$p_c = **\text{p}^T** \cdot **\text{B}_c** $$  
 
-*Equation `18`* - *Average price for the government* (identity):
+*Equation (`18`)* - *Average price for the government* (identity):
 
 $$p_g = **\text{p}^T** \cdot **\text{B}_g** $$  
 
-*Equation `5.A`* - *Real consumption function* (behavioural):
+*Equation (`5.A`)* - *Real consumption function* (behavioural):
 $$c = \alpha_1 \cdot \left( \frac{YD}{p_c} - \pi \cdot \frac{V_{-1}}{p_c} \right) + \alpha_2 \cdot \frac{V_{-1}}{p_{c,-1}} $$
 
 where $\pi$ is the rate of growth of the consumer price index (inflation rate), as consumers are assumed not to suffer from monetary illusion.
 
-*Equation `19`* - *Propensity to consume out of income* (behavioural):
+*Equation (`19`)* - *Propensity to consume out of income* (behavioural):
 $$\alpha_1 = \alpha_{11} - \alpha_{12} \cdot r_{-1}$$
 
 where $\alpha_{11}$ and $\alpha_{12}$ are positive coefficients.
 
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
-Equations `12` to `19` are additional ones. Equations `1.A` and `5.A` replace equations `1` and `5` of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
+Equations (`12`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
 
 [to be continued]
