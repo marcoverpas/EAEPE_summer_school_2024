@@ -114,7 +114,7 @@ $$B_{cb} = B_s - B_h $$
 $$r = \bar{r} $$
 where $\bar{r}$ is the policy rate set by the central bank.
 
-Note that any complete and coherent model must contain an equation that is *redundant*, meaning that it is logically implied by all the others (*Walras' Law*):
+Note that any complete and coherent model must contain an equation that is *redundant*, meaning that it is logically implied by all the others (*Walras' Law*). In Model PC, this is the equation matching the demanded stock of cash with central bank's supply of cash:
 
 $$H_s = H_h $$
 
