@@ -114,10 +114,11 @@ $$B_{cb} = B_s - B_h $$
 $$r = \bar{r} $$
 where $\bar{r}$ is the policy rate set by the central bank.
 
-*Redundant equation*:
+Note that any complete and coherent model must contain an equation that is *redundant*, meaning that it is logically implied by all the others (*Walras' Law*):
+
 $$H_s = H_h $$
 
-Note that any complete and coherent model must contain an equation that is *redundant*, meaning that it is logically implied by all the others (*Walras' Law*). This equation must be excluded from the model, which is the reason it is sometimes called the *hidden equation*. However, it can be conveniently used to double-check the consistency of the model.
+This equation must be excluded from the model, which is the reason it is sometimes called the *hidden equation*. However, it can be conveniently used to double-check the consistency of the model.
 
 One of the advantages of using such a simple model as a basic model, is that we can calculate the (quasi) steady state solution for national income $`Y`$. We can do that by observing that in the steady state there must be no saving ($`C=YD`$) and household holdings of bills are stable ($`B_{h,−1}=B_h=B_h^{*}`$). Using these conditions and equations (2) and (3) in $`Y`$, we otain: 
 
