@@ -1,14 +1,10 @@
-################################################################################
-
 # IO-SFC MODEL (BASED ON MODEL PC)
 
 # Created by Marco Veronese Passarella
 
-# Version: 7 June 2024; revised: 7 June 2024
+# Version: 7 June 2024; revised: 11 June 2024
 
-################################################################################
-
-#PREPARE THE ENVIRONMENT
+### PREPARE THE ENVIRONMENT ################################################################################
 
 #Clear Environment
 rm(list=ls(all=TRUE))
@@ -31,9 +27,8 @@ nScenarios=2
 #Set number of industries ***
 nIndustries = 2
 
-################################################################################
+### SET THE COEFFICIENTS (EXOGENOUS VARIABLES AND PARAMETERS) ################################################################################
 
-#SET THE COEFFICIENTS (EXOGENOUS VARIABLES AND PARAMETERS)
 alpha10 = 0.8 #Autonomous component of propensity to consume out of income
 alpha11 = 8 #Interest rate elasticity of propensity to consume out of income (minus sign)
 alpha2=0.4 #Propensity to consume out of wealth
@@ -57,9 +52,7 @@ a22 = 0.22 #Quantity of product 2 necessary to produce one unit of product 2
 
 #Tip: try 0.12, 0.12, 0.20, 0.20 for unit prices
 
-################################################################################
-
-#CREATE VARIABLES AND ATTRIBUTE INITIAL VALUES
+### CREATE VARIABLES AND ATTRIBUTE INITIAL VALUES ################################################################################
 
 #Use 'array' function to create 3-dimension variables
 x=array(data=0,dim=c(nScenarios,nPeriods,nIndustries)) #Gross output by industry (real)
@@ -92,9 +85,7 @@ p_c=matrix(data=1,nrow=nScenarios,ncol=nPeriods) #Average price for the consumer
 p_g=matrix(data=1,nrow=nScenarios,ncol=nPeriods) #Average price for the government
 infl=matrix(data=1,nrow=nScenarios,ncol=nPeriods) #Inflation tax (see Godley and Lavoie, 9.2.4 and 9.3.1)
 
-################################################################################
-
-#RUN THE MODEL
+### RUN THE MODEL ################################################################################
 
 #DEFINE THE LOOPS
 
@@ -117,7 +108,7 @@ for (j in 1:nScenarios){
       #DEFINE THE SYSTEM OF EQUATIONS        
       
       
-      #A) Define the matrix of technical coefficients
+      ## A) Define the matrix of technical coefficients ####
       
       #4D matrix of technical coefficients
       A4[j,i,,]=c(a11,a21,a12,a22)                   
@@ -126,7 +117,7 @@ for (j in 1:nScenarios){
       A = A4[j,i,,]          
       
       
-      #B) Define consumption shares
+      ## B) Define consumption shares ####
       
       #Household real consumption share of product 1 - eq. 12.1
       beta_c[j,i,1]=beta1_c_bar
@@ -141,7 +132,7 @@ for (j in 1:nScenarios){
       beta_g[j,i,2]=beta2_g_bar
       
       
-      #C) Define input-output structure
+      ## C) Define input-output structure ####
       
       #Real final demand vector by industry - eq. 14
       d[j,i,] = beta_c[j,i,]*cons[j,i] + beta_g[j,i,]*g[j,i]
@@ -156,7 +147,7 @@ for (j in 1:nScenarios){
       k[j,i,] = A %*% x[j,i,]
       
       
-      #D) Set prices
+      ## D) Set prices ####
       
       #Set unit price of output of industry 1 - eq. 16.1
       p[j,i,1] = (w/pr1) + (p[j,i,1]*A[1] + p[j,i,2]*A[2])*(1 + mu) 
@@ -171,7 +162,7 @@ for (j in 1:nScenarios){
       p_g[j,i] = t(p[j,i,]) %*% beta_g[j,i,]
       
       
-      #E) Households' behaviour
+      ## E) Households' behaviour ####
       
       #Disposable income - eq. 2
       yd[j,i] = y[j,i] - t[j,i] + r[j,i-1]*b_h[j,i-1]
@@ -189,7 +180,7 @@ for (j in 1:nScenarios){
       alpha1[j,i] = alpha10 - alpha11*r[j,i]
       
       
-      #F Portfolio equations
+      ## F) Portfolio equations ####
       
       #Demand for cash money - eq. 6
       h_h[j,i] = v[j,i] - b_h[j,i]
@@ -198,7 +189,7 @@ for (j in 1:nScenarios){
       b_h[j,i] = v[j,i]*(lambda0 + lambda1*r[j,i] - lambda2*(yd[j,i]/v[j,i]))
       
       
-      #G) Government
+      ## G) Government ####
       
       #Tax payments - eq. 3 
       t[j,i] = theta*(y[j,i] + r[j,i-1]*b_h[j,i-1])
@@ -207,7 +198,7 @@ for (j in 1:nScenarios){
       b_s[j,i] = b_s[j,i-1] + ( p_g[j,i]*g[j,i] + r[j,i-1]*b_s[j,i-1]) - (t[j,i] + r[j,i-1]*b_cb[j,i-1])
       
       
-      #H) Central bank
+      ## H) Central bank ####
       
       #Supply of cash - eq. 9
       h_s[j,i] = h_s[j,i-1] + b_cb[j,i] - b_cb[j,i-1]
@@ -218,15 +209,12 @@ for (j in 1:nScenarios){
       #Interest rate as policy instrument - eq. 11
       r[j,i] = r_bar[j,i]
       
-      
-      
     }
     
   }
 }
-################################################################################
 
-#ONSISTENCY CHECK (REDUNDANT EQUATION) AND PLOTS
+### CONSISTENCY CHECK (REDUNDANT EQUATION) AND PLOTS ################################################################################
 
 #Define layout
 layout(matrix(c(1,2,3,4), 2, 2, byrow = TRUE))
