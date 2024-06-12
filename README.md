@@ -206,7 +206,7 @@ Note: the superscript $T$ stands for the transpose of the matrix, turning a colu
 
 Equations (`12`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
 
-In addition to Table 1 and Table 2, Model IO-PC can also be used to examine cross-industry interdependencies. The  
+The input-output matrix of Model IO-PC is dsplayed by Table 3, which shows cross-industry interdependencies in the economy.  
 
 #### Table 3. Simplified input-output matrix  
 
