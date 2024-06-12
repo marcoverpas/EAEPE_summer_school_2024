@@ -265,6 +265,7 @@ $$mat = x_{mat} - rec$$
 $$rec = \rho_{dis} \cdot dis$$
 
 *Equation (`23`)* - *Discarded* socioeconomic stock:  
-$$dis = **\text{m}_{mat}^T** \cdot (  )$$
+
+$$dis = **\text{m}_{mat}^T**$$
 
 [to be continued]
