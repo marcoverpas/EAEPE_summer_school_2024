@@ -254,6 +254,6 @@ Firstly, extraction of matter and waste are modelled:
 
 *Equation (`20`)* - Production of *material goods*:
 
-$$ x_{mat} = **m**_{mat}^T \cdot **x** $$
+$$ x_{mat} = **m_{mat}^T** \cdot **x** $$
 
 [to be continued]
