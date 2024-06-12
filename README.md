@@ -286,7 +286,7 @@ $$en = **\text{e}_{en}^T** \cdot **\text{x}**$$
 
 *Equation (`28`)* - *Renewable* energy at the end of the period:
 
-$$ren = **\text{e}_{en}^T** \cdot (**\text{a}_{en}** \odot **\text{x} )                 $$
+$$ren = **\text{e}_{en}^T** \cdot (**\text{a}_{en}** \odot **\text{x}** )                 $$
 
 *Equation (`29`)* - *Non-renewable* energy:
 
@@ -294,7 +294,7 @@ $$nen = en - ren$$
 
 *Equation (`30`)* - Annual flow of *CO2 emissions*:
 
-$$emis = \beta_{e}*nen$$
+$$emis = \beta_{e} \cdot nen$$
 
 *Equation (`31`)* - *Cumulative* emissions:
 
