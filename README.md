@@ -206,16 +206,22 @@ Note: the superscript $T$ stands for the transpose of the matrix, turning a colu
 
 Equations (`12`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
 
-The input-output matrix of Model IO-PC is dsplayed by Table 3, which shows cross-industry interdependencies in the economy.  
+The input-output matrix of Model IO-PC is displayed by Table 3.
 
-#### Table 3. Simplified input-output matrix  
+#### Table 3. Simplified input-output matrix
 
-|                            |  Industry 1 (demand)            |  Industry 2 (demand)           | Final demand    |Output                             |
-|:-----------------------    |:-----:                          |:-----:                         |:-----:          |:------:                        |
-|                            |                                 |                                |                 |                                |
-|**Inudstry 1 (production)** | $p_1 \cdot x_1 \cdot a_{11} $   | $p_1 \cdot x_2 \cdot a_{12} $  |$p_1 \cdot d_1$  |$p_1 \cdot x_1$                 |
-|**Industry 2 (production)** | $p_2 \cdot a_{21} \cdot x_1 $   | $p_2 \cdot a_{22} \cdot x_2 $  |$p_2 \cdot d_2$  |$p_2 \cdot x_2$                 |
-|**Value added**             | $yn_1$                          | $yn_2$                         |$yn$             |                                |
-|**Output**                  | $p_1 \cdot x_1$                 | $p_2 \cdot x_2$                |                 |$\mathrm{p}^T \cdot \mathrm{x}$ |
+|                             | Industry 1 (demand)  | Industry 2 (demand)  |  Final demand   |             Output              |
+|:----------------------------|:--------------------:|:--------------------:|:---------------:|:-------------------------------:|
+|                             |                      |                      |                 |                                 |
+| **Inudstry 1 (production)** | \$p_1 x_1 a\_{11} \$ | \$p_1 x_2 a\_{12} \$ | $p_1 \cdot d_1$ |         $p_1 \cdot x_1$         |
+| **Industry 2 (production)** | \$p_2 a\_{21} x_1 \$ | \$p_2 a\_{22} x_2 \$ | $p_2 \cdot d_2$ |         $p_2 \cdot x_2$         |
+| **Value added**             |        $yn_1$        |        $yn_2$        |      $yn$       |                                 |
+| **Output**                  |   $p_1 \cdot x_1$    |   $p_2 \cdot x_2$    |                 | $\mathrm{p}^T \cdot \mathrm{x}$ |
 
-[to be continued]
+Table 3 shows cross-industry inter-dependencies in a simplified economy
+in which two products are produced by means of the same products and
+labour.
+
+## 4_Model_ECO-IO-PC
+
+\[to be continued\]
