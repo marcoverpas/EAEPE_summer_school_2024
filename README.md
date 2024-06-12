@@ -250,7 +250,7 @@ Behavioural equations draw inspiration from the works of Dafermos, Nikolaidi, an
 
 New variables and coefficients are defined between line 88 and line 125. The blocks providing the additional equations for the ecosystem are those included between line 252 and 333.
 
-Firstly, extraction of matter and waste are modelled:
+Firstly, extraction of matter and waste are modelled.
 
 *Equation (`20`)* - Production of *material goods*:
 
@@ -267,5 +267,20 @@ $$rec = \rho_{dis} \cdot dis$$
 *Equation (`23`)* - *Discarded* socioeconomic stock:  
 
 $$dis = **\text{m}_{mat}^T** \cdot (**\text{z}_{dc}** \odot **\text{dc}_{-1}**)$$
+
+*Equation (`24`)* - Stock of *durable goods*:
+
+$$ **\text{dc}** = **\text{dc}_{-1}** + **\text{B}_c** \cdot c - **\text{z}_{dc}** \cdot **\text{dc}_{-1}** $$
+
+*Equation (`25`)* - *Socioeconomic stock*:
+
+$$k_h = k_{h,-1} + x_{mat} - dis $$
+
+*Equation (`26`)* - *Waste*:
+
+$$wa = mat - (k_h - k_{h,-1}) $$
+
+Secondly, energy use and CO2 emissions are considered.
+
 
 [to be continued]
