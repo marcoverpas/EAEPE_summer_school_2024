@@ -280,5 +280,30 @@ $$wa = mat - (k_h - k_{h,-1}) $$
 
 Secondly, energy use and CO2 emissions are considered.
 
+*Equation (`27`)* - *Total energy* required for production:
+
+$$en = **\text{e}_{en}^T** \cdot **\text{x}**$$
+
+*Equation (`28`)* - *Renewable* energy at the end of the period:
+
+$$ren = **\text{e}_{en}^T** \cdot (**\text{a}_{en}** \odot **\text{x} )                 $$
+
+*Equation (`29`)* - *Non-renewable* energy:
+
+$$nen = en - ren$$
+
+*Equation (`30`)* - Annual flow of *CO2 emissions*:
+
+$$emis = \beta_{e}*nen$$
+
+*Equation (`31`)* - *Cumulative* emissions:
+
+$$co2_{cum} = co2_{cum,-1} + emis$$
+
+*Equation (`32`)* - Atmospheric *temperature*:
+
+$$temp = \frac{1}{1-fnc} \cdot tcre \cdot co2_{cum}$$
+
+Thirdly, the dynamics of reserves is modelled.
 
 [to be continued]
