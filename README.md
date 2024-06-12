@@ -256,4 +256,15 @@ Firstly, extraction of matter and waste are modelled:
 
 $$ x_{mat} = **\text{m}_{mat}^T** \cdot **\text{x}** $$
 
+*Equation (`21`)* - *Extraction* of matter:
+
+$$mat = x_{mat} - rec$$
+
+*Equation (`22`)* - *Recycled* matter:
+
+$$rec = \rho_{dis}*dis$$
+
+*Equation (`23`)* - *Discarded* socioeconomic stock:  
+$$dis = **\text{m}**_{mat}^T \cdot ( **\text{z}_{dc}** \odot **\text{dc}_{-1}** )$$
+
 [to be continued]
