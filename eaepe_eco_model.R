@@ -112,7 +112,7 @@ o2= matrix(data=emis-cen,nrow=nScenarios,ncol=nPeriods) #Mass of oxygen
 
 #Coefficients
 rho_dis = 0.2 #Recycling rate
-beta_e = 0.07 #C=2 intensity of non-renewable enargy sources
+beta_e = 0.07 #C=2 intensity of non-renewable energy sources
 tcre=0.0001 #Transient climate response to cumulative carbon emissions
 fnc=0.5 #Non-CO2 fraction of total anthropocentric forcing
 sigma_m=0.0005 #Conversion rate of matter resources into reserves
@@ -346,13 +346,13 @@ par(mar = c(5.1+1, 4.1+1, 4.1+1, 2.1+1))
 #Figure 1: redundant equation
 plot(h_s[1,2:nPeriods]-h_h[1,2:nPeriods], type="l", col="green",lwd=3,lty=1,font.main=1,cex.main=1.5,
      main=expression("Consistency check: " * italic(H[phantom("")]["s"]) - italic(H[phantom("")]["h"])),
-     cex.axis=1.5,cex.lab=1.5,ylab = '£',
+     cex.axis=1.5,cex.lab=1.5,ylab = 'Â£',
      xlab = 'Time',ylim = range(-1,1))
 
 #Figure 2: disposable income and consumption
 plot(yd[1,2:45],type="l", col=1, lwd=2, lty=1, font.main=1,cex.main=1.5,
      main="Figure 2  Disposable income and consumption \n under baseline scenario",
-     ylab = '£',xlab = 'Time',ylim = range(min(cons[1,2:45]*p_c[1,2:45]),max(yd[1,2:45])),
+     ylab = 'Â£',xlab = 'Time',ylim = range(min(cons[1,2:45]*p_c[1,2:45]),max(yd[1,2:45])),
      cex.axis=1.5,cex.lab=1.5)
 lines(cons[1,2:45]*p_c[1,2:45],type="l",lwd=2,lty=2,col="purple1")
 legend("right",c("Disposable income","Nom. consumption"),  bty = "n",
