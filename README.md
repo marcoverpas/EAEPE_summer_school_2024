@@ -370,23 +370,23 @@ The related physical constraints (used to define ecosystem identities) are displ
 
 #### Table 4. Physical flow matrix
 
-|                               |*Matter*       |*Energy*        |
-|:------------------------------|:------------: |:--------------:|
-|                               |               |                |
-|**INPUTS**                     |               |                |
-|Extracted matter               |$$mat$$        |                |
-|Recycled socio-economic stock  |$$rec$$        |                |
-|Renewable energy               |               |$$ren$$         |
-|Non-renewable energy           |$$cen$$        |$$nen$$         |
-|Oxygen                         |$$o2$$         |                |
-|                               |               |                |
-|**OUTPUTS**                    |               |                |
-|Industrial CO2 emissions       |$$-emis$$      |                |
-|Discarded socio-economic stock |$$-dis$$       |                |
-|Dissipated energy              |               |$$-nen$$        |
-|Change in socio-economic stock |$$-Delta K_h $$|                |
-|                               |               |                |
-|**TOTAL**                      |0              |0               |
+|                               |*Matter*        |*Energy*        |
+|:------------------------------|:------------:  |:--------------:|
+|                               |                |                |
+|**INPUTS**                     |                |                |
+|Extracted matter               |$$mat$$         |                |
+|Recycled socio-economic stock  |$$rec$$         |                |
+|Renewable energy               |                |$$ren$$         |
+|Non-renewable energy           |$$cen$$         |$$nen$$         |
+|Oxygen                         |$$o2$$          |                |
+|                               |                |                |
+|**OUTPUTS**                    |                |                |
+|Industrial CO2 emissions       |$$-emis$$       |                |
+|Discarded socio-economic stock |$$-dis$$        |                |
+|Dissipated energy              |                |$$-nen$$        |
+|Change in socio-economic stock |$$-\Delta K_h $$|                |
+|                               |                |                |
+|**TOTAL**                      |0               |0               |
 
 
 #### Table 5. Physical stock-flow matrix
