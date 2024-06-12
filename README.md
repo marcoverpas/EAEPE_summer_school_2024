@@ -198,9 +198,9 @@ $$c = \alpha_1 \cdot \left( \frac{YD}{p_c} - \pi \cdot \frac{V_{-1}}{p_c} \right
 where $\pi$ is the rate of growth of the consumer price index (inflation rate), as consumers are assumed not to suffer from monetary illusion.
 
 *Equation (`19`)* - *Propensity to consume out of income* (behavioural):
-$$\alpha_1 = \alpha_{11} - \alpha_{12} \cdot r_{-1}$$
+$$\alpha_1 = \alpha_{10} - \alpha_{11} \cdot r_{-1}$$
 
-where $\alpha_{11}$ and $\alpha_{12}$ are positive coefficients.
+where $\alpha_{10}$ and $\alpha_{11}$ are positive coefficients.
 
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
@@ -344,6 +344,6 @@ assumption is made that the propensity to consume out of income is
 
 *Equation (`19.A`)* - New *propensity to consume* out of income:
 
-$$\alpha_1 = \alpha_{10} - \alpha_{11} \cdot r_{-1} - \alpha_{12} \cdot (temp - temp_{-1})$$
+$$\alpha_1 = \alpha_{10} - \alpha_{11} \cdot r_{-1} - \alpha_{12} \cdot \Delta temp$$
 
 [to be continued]
