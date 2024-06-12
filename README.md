@@ -366,41 +366,40 @@ $$\alpha_1 = \alpha_{10} - \alpha_{11} \cdot r_{-1} - \alpha_{12} \cdot \Delta t
 
 where $\alpha_{12}$ is a positive coefficient.
 
+The related physical constraints (used to define ecosystem identities) are displayed by Table 4 and Table 5, in which matter is expressed in $Mt$, whereas energy is expressed in $EJ$. 
+
 #### Table 4. Physical flow matrix
 
-|                                |     Matter      |  Energy  |
-|:-------------------------------|:---------------:|:--------:|
-|                                |                 |          |
-| INPUTS                         |                 |          |
-| Extracted matter               |     $$mat$$     |          |
-| Recycled socio-economic stock  |     $$rec$$     |          |
-| Renewable energy               |                 | $$ren$$  |
-| Non-renewable energy           |     $$cen$$     | $$nen$$  |
-| Oxygen                         |     $$O2$$      |          |
-|                                |                 |          |
-| OUTPUTS                        |                 |          |
-| Industrial CO2 emissions       |    $$-emis$$    |          |
-| Discarded socio-economic stock |    $$-dis$$     |          |
-| Dissipated energy              |                 | $$-nen$$ |
-| Change in socio-economic stock | $$-Delta K_h $$ |          |
-|                                |                 |          |
-| TOTAL                          |        0        |    0     |
+|                               |*Matter*       |*Energy*        |
+|:------------------------------|:------------: |:--------------:|
+|                               |               |                |
+|**INPUTS**                     |               |                |
+|Extracted matter               |$$mat$$        |                |
+|Recycled socio-economic stock  |$$rec$$        |                |
+|Renewable energy               |               |$$ren$$         |
+|Non-renewable energy           |$$cen$$        |$$nen$$         |
+|Oxygen                         |$$o2$$         |                |
+|                               |               |                |
+|**OUTPUTS**                    |               |                |
+|Industrial CO2 emissions       |$$-emis$$      |                |
+|Discarded socio-economic stock |$$-dis$$       |                |
+|Dissipated energy              |               |$$-nen$$        |
+|Change in socio-economic stock |$$-Delta K_h $$|                |
+|                               |               |                |
+|**TOTAL**                      |0              |0               |
+
 
 #### Table 5. Physical stock-flow matrix
 
-|                                      |    Matter    |    Energy    |       CO2        |     SES      |
-|:-------------------------------------|:------------:|:------------:|:----------------:|:------------:|
-|                                      |              |              |                  |              |
-| INITIAL STOCK                        | $$k_{m,-1}$$ | $$k_{e,-1}$$ | $$co2_{cum,-1}$$ | $$k_{h,-1}$$ |
-| Resources converted into reserves    |  $$conv_m$$  |  $$conv_e$$  |                  |              |
-| CO2 emissions                        |              |              |    $$emis $$     |              |
-| Production of material goods         |              |              |                  | $$x_{mat} $$ |
-| Extraction of matter / use of energy |   $$-mat$$   |   $$-en $$   |                  |              |
-| Destruction of socio-economic stock  |              |              |                  |   $$-dis$$   |
-| FINAL STOCK                          |   $$k_m$$    |   $$k_e$$    |  $$co2_{cum}$$   |   $$k_h$$    |
-|                                      |              |              |                  |              |
-| Tot                                  |      0       |      0       |        0         |      0       |
-
-
+|                                     |*Matter*     |*Energy*     |*CO2*            |*SES*       |
+|:------------------------------------|:----------: |:----------: |:----------:     |:----------:|
+|                                     |             |             |                 |            |
+|**INITIAL STOCK**                    |$$k_{m,-1}$$ |$$k_{e,-1}$$ |$$co2_{cum,-1}$$ |$$k_{h,-1}$$|
+|Resources converted into reserves    |$$conv_m$$   |$$conv_e$$   |                 |            |
+|CO2 emissions                        |             |             |$$emis $$        |            |
+|Production of material goods         |             |             |                 |$$x_{mat} $$|
+|Extraction of matter / use of energy |$$-mat$$     |$$-en $$     |                 |            |
+|Destruction of socio-economic stock  |             |             |                 |$$-dis$$    |
+|**FINAL STOCK**                      |$$k_m$$      |$$k_e$$      |$$co2_{cum}$$    |$$k_h$$     |
 
 [to be continued]
