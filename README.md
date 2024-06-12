@@ -306,4 +306,44 @@ $$temp = \frac{1}{1-fnc} \cdot tcre \cdot co2_{cum}$$
 
 Thirdly, the dynamics of reserves is modelled.
 
+*Equation (`33`)* - Stock of *matter reserves*:
+
+$$k_m = k_{m,-1} + conv_m - mat$$
+
+*Equation (`34`)* - Matter resources *converted* to reserves:
+
+$$conv_m = \sigma_{m} \cdot res_m$$
+
+*Equation (`35`)* - Stock of *matter resources*:
+
+$$res_m = res_{m,-1} - conv_m$$
+
+*Equation (`36`)* - *Carbon mass* of non-renewable energy:
+
+$$cen = \frac{emis}{car}$$
+
+*Equation (`37`)* - Mass of *oxygen*:
+
+$$o2 = emis - cen$$
+
+*Equation (`38`)* - Stock of *energy reserves*:
+
+$$k_e = k_{e,-1} + conv_e - en$$
+
+*Equation (`39`)* - Energy resources *converted* to reserves:
+
+$$conv_e = \sigma_e \cdot res_e$$
+
+*Equation (`40`)* - Stock of *energy resources*:
+
+$$res_e = res_{e,-1} - conv_e$$
+
+Lastly, feedback effects and damages can be introduced. Here the
+assumption is made that the propensity to consume out of income is
+(negatively) influenced by climate change.
+
+*Equation (`19.A`)* - New *propensity to consume* out of income:
+
+$$\alpha_1 = \alpha_{10} - \alpha_{11} \cdot r_{-1} - \alpha_{12} \cdot (temp - temp_{-1})$$
+
 [to be continued]
