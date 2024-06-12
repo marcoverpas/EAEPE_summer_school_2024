@@ -384,7 +384,7 @@ The related physical constraints (used to define ecosystem identities) are displ
 |Industrial CO2 emissions       |$$-emis$$       |                |
 |Discarded socio-economic stock |$$-dis$$        |                |
 |Dissipated energy              |                |$$-nen$$        |
-|Change in socio-economic stock |$$-\Delta K_h $$|                |
+|Change in socio-economic stock |$$-\Delta k_h $$|                |
 |                               |                |                |
 |**TOTAL**                      |0               |0               |
 
