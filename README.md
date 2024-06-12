@@ -224,4 +224,36 @@ labour.
 
 ## 4_Model_ECO-IO-PC
 
-\[to be continued\]
+Although the origins of ecological macroeconomics can be traced back to the inception of economics itself, early SFC models for economic research did not incorporate the ecosystem.
+
+This gap was bridged in the late 2010s (Dafermos, Nikolaidi, and Galanis, 2016, 2018; Jackson and Victor, 2015). The primary characteristic of ecological SFC models is their integration of monetary variables (following Godley and Lavoie, 2008) with physical variables (in line with Georgescu-Roegen, 1971) in a consistent manner. Several ECO-SFC models have been developed since then.
+
+Here we consider a simple extension of Model IO-PC, named Model ECO-IO-PC, where **ECO** stands for "ecological". Additional assumptions are as follows:
+
+1. there are 2 types of reserves: matter and energy
+
+1. there are 2 types of energy: renewable and non-renewable
+
+1. Resources are converted into reserves at a certain rate
+
+1. Industrial CO2 emissions are associated with the use of non-renewable energy
+
+1. Atmospheric temperature is a growing function of CO2 emissions
+
+1. Both goods from industry 1 and industry 2 can be durable or non-durable
+
+1. A share of durable goods (hence socio-economic stock) is discarded in every period
+
+1. Both waste and emissions are produced only by the firm sector
+
+Behavioural equations draw inspiration from the works of Dafermos, Nikolaidi, and Galanis (2016, 2018).
+
+New variables and coefficients are defined between line 88 and line 125. The blocks providing the additional equations for the ecosystem are those included between line 252 and 333.
+
+Firstly, extraction of matter and waste are modelled:
+
+*Equation (`20`)* - Production of *material goods*:
+
+$$ x_{mat} = **m**_{mat}^T \cdot **x** $$
+
+[to be continued]
