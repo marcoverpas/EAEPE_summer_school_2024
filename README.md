@@ -222,6 +222,13 @@ Table 3 shows cross-industry inter-dependencies in a simplified economy
 in which two products are produced by means of the same products and
 labour.
 
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/eco_plot_1.png"
+alt=" " />
+<figcaption aria-hidden="true">Plot of Data</figcaption>
+</figure>
+
 ## 4_Model_ECO-IO-PC
 
 Although the origins of ecological macroeconomics can be traced back to the inception of economics itself, early SFC models for economic research did not incorporate the ecosystem.
@@ -403,11 +410,3 @@ The related physical constraints (used to define ecosystem identities) are displ
 |**FINAL STOCK**                      |$$k_m$$      |$$k_e$$      |$$co2_{cum}$$    |$$k_h$$     |
 
 [to be continued]
-
-
-<figure>
-<img
-src="https://github.com/marcoverpas/figures/blob/main/eco_plot_1.png"
-alt="Plot of Data" />
-<figcaption aria-hidden="true">Plot of Data</figcaption>
-</figure>
