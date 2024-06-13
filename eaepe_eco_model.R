@@ -60,7 +60,6 @@ d=array(data=0,dim=c(nScenarios,nPeriods,nIndustries)) #Demand by industry (real
 beta_c=array(data=0,dim=c(nScenarios,nPeriods,nIndustries)) #Real consumption composition
 beta_g=array(data=0,dim=c(nScenarios,nPeriods,nIndustries)) #Real government expenditure composition
 p=array(data=1,dim=c(nScenarios,nPeriods,nIndustries)) #Unit prices
-k=array(data=0,dim=c(nScenarios,nPeriods,nIndustries*nIndustries)) #Inputs by industry
 
 #Create matrix of coefficients
 A=matrix(data=0,nrow=nIndustries,ncol=nIndustries) #2D matrix of technical coefficients
@@ -181,9 +180,6 @@ for (j in 1:nScenarios){
       
       #Value of net output (GDP)  - eq. 1.A
       y[j,i] = t(p[j,i,]) %*% d[j,i,]
-
-      #Quantities of inputs required by industry - auxiliary eq.
-      k[j,i,] = A %*% x[j,i,]
 
       
       ## D) Set prices ####
