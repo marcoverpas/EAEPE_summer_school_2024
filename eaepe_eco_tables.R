@@ -1,8 +1,10 @@
-################################################################################
-
 # PHYSICAL FLOW MATRIX AND PHYSICAL STOCK-FLOW MATRIX
 
-################################################################################
+# Created by Marco Veronese Passarella
+
+# Version: 7 June 2024; revised: 13 June 2024
+
+### Prepare the environment ################################################################################
 
 #Create BS, TFM and IO tables
 
@@ -12,10 +14,9 @@ library(knitr)
 #Choose a year
 yr=20
 
-################################################################################
-################################################################################
+### PFM matrix ################################################################################
 
-#Create row names for PFM matrix
+### Create row names for PFM matrix
 rownames<-c( "INPUTS",
              "Extracted matter",
              "Recycled socio-economic stock",
@@ -28,8 +29,6 @@ rownames<-c( "INPUTS",
              "Dissipated energy",
              "Change in socio-economic stock",
              "Tot")
-
-################################################################################
 
 #Create matter aggregates
 M <-c("", 
@@ -54,8 +53,6 @@ M_PFM<-as.data.frame(M,row.names=rownames)
 #Print matter column
 kable(M_PFM)
 
-#####################################
-
 #Create energy aggregates
 E <-c("", 
       "",
@@ -78,14 +75,11 @@ E_PFM<-as.data.frame(E,row.names=rownames)
 #Print energy column
 kable(E_PFM)
 
-#####################################
-
 #Create PFM matrix
 PFM_Matrix<-cbind(M_PFM,E_PFM)
 kable(PFM_Matrix) #Unload kableExtra to use this
 
-################################################################################
-################################################################################
+### PSFM matrix ################################################################################
 
 #Create row names for PSFM matrix
 rownames<-c( "INITIAL STOCK",
@@ -96,8 +90,6 @@ rownames<-c( "INITIAL STOCK",
              "Destruction of socio-economic stock",
              "FINAL STOCK",
              "Tot")
-
-################################################################################
 
 #Create matter aggregates
 Ma <-c(round(k_m[1,yr-1], digits = 2),
@@ -117,8 +109,6 @@ Ma_PSFM<-as.data.frame(Ma,row.names=rownames)
 #Print matter column
 kable(Ma_PSFM)
 
-#####################################
-
 #Create energy aggregates
 Ea <-c(round(k_e[1,yr-1], digits = 2),
        round(conv_e[1,yr], digits = 2),
@@ -136,8 +126,6 @@ Ea_PSFM<-as.data.frame(Ea,row.names=rownames)
 
 #Print energy column
 kable(Ea_PSFM)
-
-#####################################
 
 #Create co2 aggregates
 CO2 <-c(round(co2_cum[1,yr-1], digits = 2),
@@ -157,8 +145,6 @@ CO2_PSFM<-as.data.frame(CO2,row.names=rownames)
 #Print co2 column
 kable(CO2_PSFM)
 
-#####################################
-
 #Create s.e.s. aggregates
 SES <-c(round(kh[1,yr-1], digits = 2),
         "",
@@ -177,14 +163,12 @@ SES_PSFM<-as.data.frame(SES,row.names=rownames)
 #Print s.e.s. column
 kable(SES_PSFM)
 
-#####################################
-
 #Create PSFM matrix
 PSFM_Matrix<-cbind(Ma_PSFM,Ea_PSFM,CO2_PSFM,SES_PSFM)
 kable(PSFM_Matrix) #Unload kableExtra to use this
 
 
-################################################################################
+### HTML versions ################################################################################
 
 #Create html and latex tables
 
