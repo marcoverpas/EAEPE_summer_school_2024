@@ -226,7 +226,7 @@ These interdependencies are also depicted in the chart below. Specifically, **Fi
 
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/eco_plot_1.png" width="800">
+src="https://github.com/marcoverpas/figures/blob/main/io_plot_1.png" width="800">
 </figure>
 
 ## 4_Model_ECO-IO-PC
@@ -413,7 +413,7 @@ A dynamic rendition of the model is provided in the new Figure 3 and Figure 4, w
 
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/io_plot_1.png" width="800">
+src="https://github.com/marcoverpas/figures/blob/main/eco_plot_1.png" width="800">
 </figure>
 
 Note that the new Figure 1 and Figure 2 demonstrate that the behavior of the economy is qualitatively unchanged, except for the effect of the rise in temperature on consumption. 
