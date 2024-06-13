@@ -206,7 +206,9 @@ Note: the superscript $T$ stands for the transpose of the matrix, turning a colu
 
 Equations (`12`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
 
-The input-output matrix of Model IO-PC is displayed by Table 3.
+Using the hidden equation, Figure 1 demonstrates that the model is watertight, while Figure 2 illustrates that the evolution of the main macro variables towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy.
+
+The input-output matrix of Model IO-PC is shown in Table 3.
 
 #### Table 3. Simplified input-output matrix
 
@@ -218,14 +220,13 @@ The input-output matrix of Model IO-PC is displayed by Table 3.
 | **Value added**             |        $yn_1$        |        $yn_2$        |      $yn$       |                                 |
 | **Output**                  |   $p_1 \cdot x_1$    |   $p_2 \cdot x_2$    |                 | $\mathrm{p}^T \cdot \mathrm{x}$ |
 
-Table 3 shows cross-industry inter-dependencies in a simplified economy
-in which two products are produced by means of the same products and
-labour.
+Table 3 illustrates cross-industry interdependencies in a simplified economy where two products are produced using the same products and labour.
+
+These interdependencies are also depicted in the chart below. Specifically, Figure 3 shows the final demands for each product, while Figure 4 details the inputs required by each industry to produce their respective outputs.
 
 <figure>
 <img
 src="https://github.com/marcoverpas/figures/blob/main/eco_plot_1.png"
-alt=" " />
 </figure>
 
 ## 4_Model_ECO-IO-PC
