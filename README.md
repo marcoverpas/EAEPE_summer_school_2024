@@ -409,7 +409,7 @@ The related physical constraints (used to define ecosystem identities) are displ
 |Destruction of socio-economic stock  |             |             |                 |$$-dis$$    |
 |**FINAL STOCK**                      |$$k_m$$      |$$k_e$$      |$$co2_{cum}$$    |$$k_h$$     |
 
-A dynamic rendition of the model is provided in the new Figure 3 and Figure 4, which now show the evolution over time of matter and energy resources, and the atmospheric temperature, respectively.
+A dynamic rendition of the model is provided in the new Figure 3 and Figure 4, which now show the evolution over time of matter and energy reserves, and the atmospheric temperature, respectively.
 
 <figure>
 <img
