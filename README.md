@@ -403,3 +403,11 @@ The related physical constraints (used to define ecosystem identities) are displ
 |**FINAL STOCK**                      |$$k_m$$      |$$k_e$$      |$$co2_{cum}$$    |$$k_h$$     |
 
 [to be continued]
+
+
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/eco_plot_1.png"
+alt="Plot of Data" />
+<figcaption aria-hidden="true">Plot of Data</figcaption>
+</figure>
