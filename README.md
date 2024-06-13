@@ -409,4 +409,13 @@ The related physical constraints (used to define ecosystem identities) are displ
 |Destruction of socio-economic stock  |             |             |                 |$$-dis$$    |
 |**FINAL STOCK**                      |$$k_m$$      |$$k_e$$      |$$co2_{cum}$$    |$$k_h$$     |
 
+A dynamic rendition of the model is provided in the new Figure 3 and Figure 4, which now show the evolution over time of matter and energy resources, and the atmospheric temperature, respectively.
+
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/io_plot_1.png" width="800">
+</figure>
+
+Note that the new Figure 1 and Figure 2 demonstrate that the behavior of the economy is qualitatively unchanged, except for the effect of the rise in temperature on consumption. 
+
 [to be continued]
