@@ -226,7 +226,7 @@ These interdependencies are also depicted in the chart below. Specifically, Figu
 
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/eco_plot_1.png" width="300">
+src="https://github.com/marcoverpas/figures/blob/main/eco_plot_1.png" width="1000">
 </figure>
 
 ## 4_Model_ECO-IO-PC
