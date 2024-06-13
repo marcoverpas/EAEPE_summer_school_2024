@@ -226,7 +226,6 @@ labour.
 <img
 src="https://github.com/marcoverpas/figures/blob/main/eco_plot_1.png"
 alt=" " />
-<figcaption aria-hidden="true">Plot of Data</figcaption>
 </figure>
 
 ## 4_Model_ECO-IO-PC
