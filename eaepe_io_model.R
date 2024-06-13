@@ -227,7 +227,27 @@ plot(yd[1,2:45],type="l", col=1, lwd=2, lty=1, font.main=1,cex.main=1.5,
      main="Figure 2  Disposable income and consumption \n under baseline scenario",
      ylab = '\u00A3',xlab = 'Time',ylim = range(min(cons[1,2:45]*p_c[1,2:45]),max(yd[1,2:45])),
      cex.axis=1.5,cex.lab=1.5)
-lines(cons[1,2:45]*p_c[1,2:45],type="l",lwd=2,lty=2,col="red1")
+lines(cons[1,2:45]*p_c[1,2:45],type="l",lwd=2,lty=2,col="purple1")
 legend("right",c("Disposable income","Nom. consumption"),  bty = "n",
-       cex=1.5, lty=c(1,2), lwd=c(2,2), col = c(1,"red1"), box.lty=0)
+       cex=1.5, lty=c(1,2), lwd=c(2,2), col = c(1,"purple1"), box.lty=0)
 abline(h=yd[1,nPeriods],col=1,lty=3)
+
+#Figure 3: final demands
+plot(d[1,2:45,1]*p[1,2:45,1],type="l", col="red4", lwd=2, lty=1, font.main=1,cex.main=1.5,
+     main="Figure 3  Final demand for each product",
+     ylab = '\u00A3',xlab = 'Time',ylim = range(min(d[1,2:45,1]*p[1,2:45,1]),max(d[1,2:45,2]*p[1,2:45,2])),
+     cex.axis=1.5,cex.lab=1.5)
+lines(d[1,2:45,2]*p[1,2:45,2],type="l",lwd=2,lty=1,col="lightblue4")
+legend("right",c("Product 1","Product 2"),  bty = "n",
+       cex=1.5, lty=c(1,1), lwd=c(2,2), col = c("red4","lightblue4"), box.lty=0)
+
+#Figure 4: inputs used in each industry
+plot(x[1,2:45,1]*A[1]*p[1,2:45,1],type="l", col="red4", lwd=2, lty=1, font.main=1,cex.main=1.5,
+     main="Figure 4  Inputs used in each industry",
+     ylab = '\u00A3',xlab = 'Time',ylim = range(min(x[1,2:45,1]*A[1]*p[1,2:45,1]),max(x[1,2:45,2]*A[4]*p[1,2:45,2])),
+     cex.axis=1.5,cex.lab=1.5)
+lines(x[1,2:45,1]*A[2]*p[1,2:45,2],type="l",lwd=2,lty=1,col="lightblue4")
+lines(x[1,2:45,2]*A[3]*p[1,2:45,1],type="l",lwd=2,lty=1,col="red1")
+lines(x[1,2:45,2]*A[4]*p[1,2:45,2],type="l",lwd=2,lty=1,col="blue3")
+legend("topright",c("1 into 1","2 into 1", "1 into 2","2 into 2" ),  bty = "n",
+       cex=1.5, lty=c(1,1,1,1), lwd=c(2,2,2,2), col = c("red4","lightblue4","red1","blue3"), box.lty=0)
