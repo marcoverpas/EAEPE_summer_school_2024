@@ -72,6 +72,8 @@ The structure of Model PC is quite simple. Crucial identities of the model are d
 |                       |                     |                  |                         |                     |          |
 |Column tot.            |0                    |0                 |0                        |0                    |   0      |
 
+*Note*: The code needed to generate **Table 1** and **Table 2** can be accessed [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_tables.R).
+
 Completing the identities derived form the tables above with behavioural equations for taxes, consumption, demand for bills, and the interest rate, we obtain the following system of difference equations:
 
 *Equation (`1`)* - National income (identity): 
@@ -219,6 +221,8 @@ The input-output matrix of Model IO-PC is shown in **Table 3**.
 | **Industry 2 (production)** | \$p_2 a\_{21} x_1 \$ | \$p_2 a\_{22} x_2 \$ | $p_2 \cdot d_2$ |         $p_2 \cdot x_2$         |
 | **Value added**             |        $yn_1$        |        $yn_2$        |      $yn$       |                                 |
 | **Output**                  |   $p_1 \cdot x_1$    |   $p_2 \cdot x_2$    |                 | $\mathrm{p}^T \cdot \mathrm{x}$ |
+
+*Note*: The code needed to generate **Table 3** can be accessed [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_tables.R).
 
 **Table 3** illustrates cross-industry interdependencies in a simplified economy where two products are produced using the same products and labour.
 
@@ -408,6 +412,8 @@ The related physical constraints (used to define ecosystem identities) are displ
 |Extraction of matter / use of energy |$$-mat$$     |$$-en $$     |                 |            |
 |Destruction of socio-economic stock  |             |             |                 |$$-dis$$    |
 |**FINAL STOCK**                      |$$k_m$$      |$$k_e$$      |$$co2_{cum}$$    |$$k_h$$     |
+
+*Note*: The code needed to generate **Table 4** and **Table 5** can be accessed [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_eco_tables.R).
 
 A dynamic rendition of the model is provided in the new **Figure 3** and **Figure 4**, which now show the evolution over time of matter and energy reserves, and the atmospheric temperature, respectively.
 
