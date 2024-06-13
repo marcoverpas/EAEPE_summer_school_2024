@@ -206,9 +206,9 @@ Note: the superscript $T$ stands for the transpose of the matrix, turning a colu
 
 Equations (`12`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. The main code for developing Model IO-PC and running some experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
 
-Using the hidden equation, Figure 1 demonstrates that the model is watertight, while Figure 2 illustrates that the evolution of the main macro variables towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy.
+Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of the main macro variables towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy.
 
-The input-output matrix of Model IO-PC is shown in Table 3.
+The input-output matrix of Model IO-PC is shown in **Table 3**.
 
 #### Table 3. Simplified input-output matrix
 
@@ -220,9 +220,9 @@ The input-output matrix of Model IO-PC is shown in Table 3.
 | **Value added**             |        $yn_1$        |        $yn_2$        |      $yn$       |                                 |
 | **Output**                  |   $p_1 \cdot x_1$    |   $p_2 \cdot x_2$    |                 | $\mathrm{p}^T \cdot \mathrm{x}$ |
 
-Table 3 illustrates cross-industry interdependencies in a simplified economy where two products are produced using the same products and labour.
+**Table 3** illustrates cross-industry interdependencies in a simplified economy where two products are produced using the same products and labour.
 
-These interdependencies are also depicted in the chart below. Specifically, Figure 3 shows the final demands for each product, while Figure 4 details the inputs required by each industry to produce their respective outputs.
+These interdependencies are also depicted in the chart below. Specifically, **Figure 3** shows the final demands for each product, while **Figure 4** details the inputs required by each industry to produce their respective outputs.
 
 <figure>
 <img
@@ -373,7 +373,7 @@ $$\alpha_1 = \alpha_{10} - \alpha_{11} \cdot r_{-1} - \alpha_{12} \cdot \Delta t
 
 where $\alpha_{12}$ is a positive coefficient.
 
-The related physical constraints (used to define ecosystem identities) are displayed by Table 4 and Table 5, in which matter is expressed in $Mt$ and energy is expressed in $EJ$. 
+The related physical constraints (used to define ecosystem identities) are displayed by **Table 4** and **Table 5**, in which matter is expressed in $Mt$ and energy is expressed in $EJ$. 
 
 #### Table 4. Physical flow matrix
 
