@@ -9,6 +9,7 @@ This repository includes material prepared for the [17th EAEPE Summer School, Ro
 - [3 Model IO-PC](#3_Model_IO-PC)
 - [4 Model ECO-IO-PC](#3_Model_ECO-IO-PC)
 - [5 Experiments](#5_Experiments)
+- [6 Suggested readings](#6_Suggested_readings)
 
 ## 1_Introduction
 
@@ -427,3 +428,11 @@ Note that the new **Figure 1** and **Figure 2** demonstrate that the behavior of
 ## 5_Experiments
 
 [to be continued]
+
+## 6_Suggested_readings
+
+1. *The cookbook of SFC economic theory and modelling*: Godley W. and Lavoie M. (2007) [Monetary Economics. An Integrated Approach to Credit, Money, Income, Production and Wealth](https://link.springer.com/book/10.1007/978-1-137-08599-3), Palgrave Macmillan, Basingstoke.
+
+1. *A key reference for ecological SFC macro models*: Dafermos Y., Nikolaidi M. and Galanis G. (2017) [A stock-flow-fund ecological macroeconomic model](https://www.sciencedirect.com/science/article/pii/S0921800916301343), Ecological Economics, 131, pp. 191-207.
+
+1. *A simple IO-SFC model with bank money*: Veronese Passarella M. (2023) [Technical change and the monetary circuit: an input-output stock-flow consistent dynamic model](https://www.deps.unisi.it/sites/st02/files/allegatiparagrafo/07-09-2023/903.pdf), Dipartimento di Economia Politica e Statistica – Università di Siena, WP No. 903.
