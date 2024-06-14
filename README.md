@@ -258,7 +258,7 @@ Here we consider a simple extension of Model IO-PC, named Model ECO-IO-PC, where
 
 1. Both waste and emissions are produced only by the firm sector
 
-Behavioural equations draw inspiration from the works of [Dafermos, Nikolaidi, and Galanis (2016, 2018)](https://define-model.org/). The main model code is available [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_eco_model.R). New variables and coefficients are defined between line 88 and line 125. The blocks providing the additional equations for the ecosystem are those included between line 252 and 333.
+Behavioural equations draw inspiration from the works of [Dafermos, Nikolaidi, and Galanis (2016, 2018)](https://define-model.org/). The main code of Model ECO-IO-PC is available [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_eco_model.R). New variables and coefficients are defined between line 88 and line 125. The blocks providing the additional equations for the ecosystem are those included between line 252 and 333.
 
 Firstly, extraction of matter and waste are modelled.
 
