@@ -234,7 +234,7 @@ These interdependencies are also depicted in the chart below. Specifically, **Fi
 src="https://github.com/marcoverpas/figures/blob/main/io_plot_1.png" width="800">
 </figure>
 
-Sankey diagrams can be used to take snapshots of the economy in a specific period.
+Figures 1 to 4 show the evolution of model variables over time. Sankey diagrams can be used to take snapshots of the economy in a specific period.
 
 <figure>
   <img
