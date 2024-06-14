@@ -234,6 +234,16 @@ These interdependencies are also depicted in the chart below. Specifically, **Fi
 src="https://github.com/marcoverpas/figures/blob/main/io_plot_1.png" width="800">
 </figure>
 
+Sankey diagrams can be used to take snapshots of the economy in a specific period.
+
+<figure>
+  <img src="https://github.com/marcoverpas/figures/blob/main/sankey_combined.png" width="800" alt="Sankey diagram showing economic flows">
+  <figcaption>Sankey diagram showing the payments across social sectors and the flows of inputs across industries in period 20.</figcaption>
+</figure>
+
+For instance, the diagram above illustrates the payments across social sectors and the flows of inputs across industries in period 20. The related additional code can be found here.
+
+
 ## 4_Model_ECO-IO-PC
 
 Although the origins of ecological macroeconomics can be traced back to the inception of economics itself, early SFC models for economic research did not incorporate the ecosystem.
