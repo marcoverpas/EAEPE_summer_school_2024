@@ -360,6 +360,8 @@ $$res_m = res_{m,-1} - conv_m$$
 
 $$cen = \frac{emis}{car}$$
 
+where $car$ is the coefficient converting Gt of carbon into Gt of CO2.
+
 *Equation (`37`)* - Mass of *oxygen*:
 
 $$o2 = emis - cen$$
