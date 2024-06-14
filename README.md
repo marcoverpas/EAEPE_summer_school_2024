@@ -237,8 +237,8 @@ src="https://github.com/marcoverpas/figures/blob/main/io_plot_1.png" width="800"
 Sankey diagrams can be used to take snapshots of the economy in a specific period.
 
 <figure>
-  <img src="https://github.com/marcoverpas/figures/blob/main/sankey_combined.png" width="800" alt="Sankey diagram showing economic flows">
-  <figcaption>Sankey diagram showing the payments across social sectors and the flows of inputs across industries in period 20.</figcaption>
+  <img
+  src="https://github.com/marcoverpas/figures/blob/main/sankey_combined.png">
 </figure>
 
 For instance, the diagram above illustrates the payments across social sectors and the flows of inputs across industries in period 20. The related additional code can be found here.
