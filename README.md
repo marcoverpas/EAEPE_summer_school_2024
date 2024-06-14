@@ -433,6 +433,8 @@ Note that the new **Figure 1** and **Figure 2** demonstrate that the behavior of
 
 1. *The cookbook of SFC economic theory and modelling*: Godley W. and Lavoie M. (2007) [Monetary Economics. An Integrated Approach to Credit, Money, Income, Production and Wealth](https://link.springer.com/book/10.1007/978-1-137-08599-3), Palgrave Macmillan, Basingstoke.
 
-1. *A key reference for ecological SFC macro models*: Dafermos Y., Nikolaidi M. and Galanis G. (2017) [A stock-flow-fund ecological macroeconomic model](https://www.sciencedirect.com/science/article/pii/S0921800916301343), Ecological Economics, 131, pp. 191-207.
+1. *A key reference for ecological SFC macro models*: Dafermos Y., Nikolaidi M. and Galanis G. (2017) [A stock-flow-fund ecological macroeconomic model](https://www.sciencedirect.com/science/article/pii/S0921800916301343), Ecological Economics, 131(1), pp. 191-207.
+
+1. *A survey on SFC literature*: Nikiforos M. and Zezza G. (2017) [Stock-flow macroeconomic models: a survey](https://onlinelibrary.wiley.com/doi/10.1111/joes.12221), Journal of Economic Surveys, 31(5), pp. 1204-1239. 
 
 1. *A simple IO-SFC model with bank money*: Veronese Passarella M. (2023) [Technical change and the monetary circuit: an input-output stock-flow consistent dynamic model](https://www.deps.unisi.it/sites/st02/files/allegatiparagrafo/07-09-2023/903.pdf), Dipartimento di Economia Politica e Statistica – Università di Siena, WP No. 903.
