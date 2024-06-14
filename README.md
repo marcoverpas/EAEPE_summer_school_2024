@@ -241,7 +241,7 @@ Figures 1 to 4 show the evolution of model variables over time. Sankey diagrams 
   src="https://github.com/marcoverpas/figures/blob/main/sankey_combined.png">
 </figure>
 
-For instance, the diagram above illustrates the payments across social sectors and the flows of inputs across industries in period 20. The related additional code can be found here.
+For instance, the diagram above illustrates the payments across social sectors and the flows of inputs across industries in period 20. The related additional code can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_sankey_diagram.R).
 
 
 ## 4_Model_ECO-IO-PC
