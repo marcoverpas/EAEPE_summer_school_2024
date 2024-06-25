@@ -349,7 +349,7 @@ legend("right",c("Disposable income","Nom. consumption"),  bty = "n",
        cex=1.5, lty=c(1,2), lwd=c(2,2), col = c(1,"purple1"), box.lty=0)
 abline(h=yd[1,nPeriods],col=1,lty=3)
 
-#Figure 3
+#Figure 3: Reserves depletion rates 
 plot(100*(mat[1,2:30]/k_m[1,1:29]),type="l",
      col="coral3", lwd=3, lty=1, font.main=1,cex.main=1.5,
      main="Figure 3  Reserves depletion rates \n under baseline scenario",
@@ -358,7 +358,7 @@ lines(100*(en[1,2:30]/k_e[1,1:29]),col="cyan4", lwd=3, lty=1)
 legend("bottomright",c("Matter","Energy"),  bty = "n",
        cex=1.5, lty=c(1,1), lwd=c(3,3), col = c("coral3","cyan4"), box.lty=0)
 
-#Figure 4
+#Figure 4: Atmospheric temperature
 plot(temp[1,1:29],type="l",
      col="cornflowerblue", lwd=3, lty=1, font.main=1,cex.main=1.5,
      main="Figure 4  Atmospheric temperature \n under baseline scenario",
