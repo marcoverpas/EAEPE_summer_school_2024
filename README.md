@@ -1,8 +1,6 @@
-<div style="display: flex; justify-content: center;">
-  <figure>
-    <img src="https://github.com/marcoverpas/figures/blob/main/qr_eaepe_2024.png" width="200" alt="QR Code">
-  </figure>
-</div>
+<p align="center">
+  <img src="https://github.com/marcoverpas/figures/blob/main/qr_eaepe_2024.png" width="200" alt="QR Code">
+</p>
 
 # 17th EAEPE Summer School
 
