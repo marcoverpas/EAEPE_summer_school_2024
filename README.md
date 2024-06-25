@@ -1,6 +1,6 @@
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/qr_eaepe_2024.png" width="800">
+src="https://github.com/marcoverpas/figures/blob/main/qr_eaepe_2024.png" width="200">
 </figure>
 
 # 17th EAEPE Summer School
