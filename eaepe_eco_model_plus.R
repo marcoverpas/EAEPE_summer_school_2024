@@ -335,9 +335,6 @@ for (j in 1:nScenarios){
 
 ### CONSISTENCY CHECK (REDUNDANT EQUATION) AND PLOTS ################################################################################
 
-#Save charts
-png(filename = "eco_plot_2.png", width = 3000, height = 2400, res=300)
-
 #Define layout
 layout(matrix(c(1,2,3,4), 2, 2, byrow = TRUE))
 par(mar = c(5.1+1, 4.1+1, 4.1+1, 2.1+1))
@@ -374,5 +371,3 @@ plot(temp[2,45:nPeriods]-temp[1,45:nPeriods],type="l",
      main="Figure 4  Atmospheric temperature \n after increase in alpha12",
      ylab = 'Change in C',xlab = 'Time',cex.axis=1.5,cex.lab=1.5)
 abline(h=0,col=1,lty=3)
-
-dev.off()
