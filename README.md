@@ -443,7 +443,7 @@ Note that the new **Figure 1** and **Figure 2** demonstrate that the behavior of
 
 ## 5_Experiments
 
-A simple experiment is to increase the (negative) temperature elasticity of the propensity to consume out of income. More precisely, it is assumed here that $\alpha_{12}$ quadruples, increasing from 4 to 16.  
+A simple experiment is to increase the (negative) temperature elasticity of the propensity to consume out of income. More precisely, it is assumed here that $\alpha_{12}$ quadruples (see the complete model code here).  
 
 <figure>
 <img
