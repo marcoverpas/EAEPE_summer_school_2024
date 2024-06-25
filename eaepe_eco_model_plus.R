@@ -31,7 +31,7 @@ nIndustries = 2
 
 alpha10 = 0.8 #Autonomous component of propensity to consume out of income
 alpha11 = 8 #Interest rate elasticity of propensity to consume out of income (minus sign)
-alpha2=0.4 #Propensity to consume out of wealth
+alpha2 = 0.4 #Propensity to consume out of wealth
 w = 0.4 #Uniform wage rate
 mu = 0.875 #Uniform mark-up
 pr1 = 1 #Labour productivity in industry 1
@@ -39,12 +39,12 @@ pr2 = 1 #Labour productivity in industry 2
 lambda0 = 0.635 #Autonomous share of bills
 lambda1 = 5 #Elasticity of bills demand to interest rate
 lambda2 = 0.01 #Elasticity of bills demand to yd/v
-theta=0.2 #Tax rate on income
+theta = 0.2 #Tax rate on income
 r_bar=matrix(data=0.025,nrow=nScenarios,ncol=nPeriods) #Interest rate as policy instrument
-beta1_c_bar=0.50 #Household consumption share of product 1
-beta2_c_bar=0.50 #Household consumption share of product 2
-beta1_g_bar=0.48 #Government consumption share of product 1
-beta2_g_bar=0.52 #Government consumption share of product 2
+beta1_c_bar = 0.50 #Household consumption share of product 1
+beta2_c_bar = 0.50 #Household consumption share of product 2
+beta1_g_bar = 0.48 #Government consumption share of product 1
+beta2_g_bar = 0.52 #Government consumption share of product 2
 a11 = 0.11 #Quantity of product 1 necessary to produce one unit of product 1
 a12 = 0.12 #Quantity of product 1 necessary to produce one unit of product 2
 a21 = 0.21 #Quantity of product 2 necessary to produce one unit of product 1
