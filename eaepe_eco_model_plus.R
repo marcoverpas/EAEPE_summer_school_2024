@@ -139,7 +139,7 @@ for (j in 1:nScenarios){
       
       #ADD ALTERNATIVE SCENARIOS  
       
-      #Shock 1: higher interest rate
+      #Shock 1: higher temperature elasticity of propensity to consume out of income
       if (i>=50 && j==2){alpha12[j,i]=16}
       
       
