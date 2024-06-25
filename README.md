@@ -1,4 +1,4 @@
-<div style="margin: auto; display: block; width: fit-content;">
+<div style="display: flex; justify-content: center;">
   <figure>
     <img src="https://github.com/marcoverpas/figures/blob/main/qr_eaepe_2024.png" width="200" alt="QR Code">
   </figure>
