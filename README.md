@@ -443,7 +443,14 @@ Note that the new **Figure 1** and **Figure 2** demonstrate that the behavior of
 
 ## 5_Experiments
 
-[to be continued]
+A simple experiment is to increase the (negative) temperature elasticity of the propensity to consume out of income. More precisely, it is assumed here that $alpha_{12}$ quadruples, increasing from 4 to 16.  
+
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/eco_plot_2.png" width="800">
+</figure>
+
+The figures above show that, while a higher sensitivity of consumption to an increase in temperature leads to an initial reduction in economic activity and environmental impacts, the situation reverses in the long run. This is because the private sector accumulates a higher stock of government bills, which, in turn, implies a higher flow of interest payments and thus a higher disposable income in the long run. Note that the level of the interest rate becomes a crucial variable for the determination of such rebound effects. 
 
 ## 6_Suggested_readings
 
