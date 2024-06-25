@@ -359,7 +359,7 @@ legend("bottomright",c("Matter","Energy"),  bty = "n",
        cex=1.5, lty=c(1,1), lwd=c(3,3), col = c("coral3","cyan4"), box.lty=0)
 
 #Figure 4: atmospheric temperature
-plot(temp[1,1:29],type="l",
+plot(temp[1,2:30],type="l",
      col="cornflowerblue", lwd=3, lty=1, font.main=1,cex.main=1.5,
      main="Figure 4  Atmospheric temperature \n under baseline scenario",
      ylab = 'C',xlab = 'Time',cex.axis=1.5,cex.lab=1.5)
