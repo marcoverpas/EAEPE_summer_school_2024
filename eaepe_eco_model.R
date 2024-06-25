@@ -22,7 +22,7 @@ setwd("C:/Users/Marco Passarella/Google Drive/New Conferences/EAEPE Summer Schoo
 nPeriods = 90
 
 #Set number of scenarios
-nScenarios=1 
+nScenarios = 1 
 
 #Set number of industries ***
 nIndustries = 2
