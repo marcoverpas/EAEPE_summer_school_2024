@@ -7,7 +7,7 @@ This repository includes material prepared for the [17th EAEPE Summer School, Ro
 - [1 Introduction](#1_Introduction)
 - [2 Model PC](#2_Model_PC)
 - [3 Model IO-PC](#3_Model_IO-PC)
-- [4 Model ECO-IO-PC](#3_Model_ECO-IO-PC)
+- [4 Model ECO-IO-PC](#4_Model_ECO-IO-PC)
 - [5 Experiments](#5_Experiments)
 - [6 Suggested readings](#6_Suggested_readings)
 
