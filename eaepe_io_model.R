@@ -22,7 +22,7 @@ cat("\014")
 nPeriods = 90
 
 #Set number of scenarios
-nScenarios=2 
+nScenarios = 1 
 
 #Set number of industries ***
 nIndustries = 2
@@ -96,16 +96,10 @@ for (j in 1:nScenarios){
     
     #Define iterations
     for (iterations in 1:100){
-      
-      
-      #ADD ALTERNATIVE SCENARIOS  
-      
-      #Shock 1: higher interest rate
-      if (i>=10 && j==2){r_bar[j,i]=0.035}
-      
+
       
       #DEFINE THE SYSTEM OF EQUATIONS        
-      
+
       
       ## A) Define the matrix of technical coefficients ####
       
