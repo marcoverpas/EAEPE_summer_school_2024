@@ -394,7 +394,7 @@ $$\alpha_1 = \alpha_{10} - \alpha_{11} \cdot r_{-1} - \alpha_{12} \cdot \Delta t
 
 where $\alpha_{12}$ is a positive coefficient.
 
-The related physical constraints (used to define ecosystem identities) are displayed by **Table 4** and **Table 5**, in which matter is expressed in $Mt$ and energy is expressed in $EJ$. 
+The related physical constraints (used to define ecosystem identities) are displayed by **Table 4** and **Table 5**, in which matter is expressed in $Gt$ and energy is expressed in $EJ$. 
 
 #### Table 4. Physical flow matrix
 
