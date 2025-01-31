@@ -112,25 +112,25 @@ for (j in 1:nScenarios){
       
       ## B) Define consumption shares ####
       
-      #Household real consumption share of product 1 - eq. 12.1
+      #Household real consumption share of product 1 - eq. 13.1
       beta_c[j,i,1]=beta1_c_bar
       
-      #Household real consumption share of product 2 - eq. 12.2
+      #Household real consumption share of product 2 - eq. 13.2
       beta_c[j,i,2]=beta2_c_bar
       
-      #Government real consumption share of product 1 - eq. 13.1
+      #Government real consumption share of product 1 - eq. 14.1
       beta_g[j,i,1]=beta1_g_bar
       
-      #Government real consumption share of product 2 - eq. 13.2
+      #Government real consumption share of product 2 - eq. 14.2
       beta_g[j,i,2]=beta2_g_bar
       
       
       ## C) Define input-output structure ####
       
-      #Real final demand vector by industry - eq. 14
+      #Real final demand vector by industry - eq. 15
       d[j,i,] = beta_c[j,i,]*cons[j,i] + beta_g[j,i,]*g[j,i]
       
-      #Real gross output by industry  - eq. 15
+      #Real gross output by industry  - eq. 16
       x[j,i,] = solve(I-A) %*% d[j,i,]
       
       #Value of net output (GDP)  - eq. 1.A
@@ -139,16 +139,16 @@ for (j in 1:nScenarios){
       
       ## D) Set prices ####
       
-      #Set unit price of output of industry 1 - eq. 16.1
+      #Set unit price of output of industry 1 - eq. 17.1
       p[j,i,1] = (w/pr1) + (p[j,i,1]*A[1] + p[j,i,2]*A[2])*(1 + mu) 
       
-      #Set unit price of output of industry 2 - eq. 16.2  
+      #Set unit price of output of industry 2 - eq. 17.2  
       p[j,i,2] = (w/pr2) + (p[j,i,1]*A[3] + p[j,i,2]*A[4])*(1 + mu) 
       
-      #Average price for the consumers - eq. 17
+      #Average price for the consumers - eq. 18
       p_c[j,i] = t(p[j,i,]) %*% beta_c[j,i,]
       
-      #Average price for the government - eq. 18
+      #Average price for the government - eq. 19
       p_g[j,i] = t(p[j,i,]) %*% beta_g[j,i,]
       
       
@@ -166,7 +166,7 @@ for (j in 1:nScenarios){
       #Inflation tax for households - eq. 5.A.1
       infl[j,i] = ((p_c[j,i]-p_c[j,i-1])/p_c[j,i-1])*(v[j,i-1]/p_c[j,i])
       
-      #Endogenous propensity to consume out of income  - eq. 19
+      #Endogenous propensity to consume out of income  - eq. 12
       alpha1[j,i] = alpha10 - alpha11*r[j,i]
       
       
