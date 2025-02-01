@@ -161,7 +161,7 @@ for (j in 1:nScenarios){
       v[j,i] = v[j,i-1] + (yd[j,i] - p_c[j,i]*cons[j,i])
       
       #Real consumption function with no monetary illusion - eq. 5.A.1 
-      cons[j,i] = alpha1[j,i]*((yd[j,i]/p_c[j,i])-infl[j,i]) + alpha2*v[j,i-1]/p_c[j,i-1]
+      cons[j,i] = alpha1[j,i]*((yd[j,i]/p_c[j,i])-infl[j,i]) + alpha2*v[j,i-1]/p_c[j,i]
       
       #Inflation tax for households - eq. 5.A.1
       infl[j,i] = ((p_c[j,i]-p_c[j,i-1])/p_c[j,i-1])*(v[j,i-1]/p_c[j,i])
