@@ -16,7 +16,7 @@ if(!is.null(dev.list())) dev.off()
 cat("\014")
 
 #Set directory/folder
-setwd("C:/Users/Marco Passarella/Google Drive/New Conferences/EAEPE Summer School 2024")
+#setwd("C:/Users/...")
 
 #set number of periods
 nPeriods = 120
@@ -371,3 +371,4 @@ plot(temp[2,45:nPeriods]-temp[1,45:nPeriods],type="l",
      main="Figure 4  Atmospheric temperature \n after increase in alpha12",
      ylab = 'Change in C',xlab = 'Time',cex.axis=1.5,cex.lab=1.5)
 abline(h=0,col=1,lty=3)
+
