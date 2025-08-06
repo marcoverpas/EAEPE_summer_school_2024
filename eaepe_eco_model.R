@@ -16,7 +16,7 @@ if(!is.null(dev.list())) dev.off()
 cat("\014")
 
 #Set directory/folder
-setwd("C:/Users/Marco Passarella/Google Drive/New Conferences/EAEPE Summer School 2024")
+#setwd("C:/Users/...")
 
 #set number of periods
 nPeriods = 90
@@ -363,3 +363,4 @@ plot(temp[1,2:30],type="l",
      col="cornflowerblue", lwd=3, lty=1, font.main=1,cex.main=1.5,
      main="Figure 4  Atmospheric temperature \n under baseline scenario",
      ylab = 'C',xlab = 'Time',cex.axis=1.5,cex.lab=1.5)
+
