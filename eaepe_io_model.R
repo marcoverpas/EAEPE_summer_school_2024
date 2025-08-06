@@ -16,7 +16,7 @@ if(!is.null(dev.list())) dev.off()
 cat("\014")
 
 #Set directory/folder
-#setwd("C:/Users/Marco Passarella/Google Drive/New Conferences/EAEPE Summer School 2024")
+#setwd("C:/Users/...")
 
 #set number of periods
 nPeriods = 90
@@ -245,3 +245,4 @@ lines(x[1,2:45,2]*A[3]*p[1,2:45,1],type="l",lwd=2,lty=1,col="red1")
 lines(x[1,2:45,2]*A[4]*p[1,2:45,2],type="l",lwd=2,lty=1,col="blue3")
 legend("topright",c("1 into 1","2 into 1", "1 into 2","2 into 2" ),  bty = "n",
        cex=1.5, lty=c(1,1,1,1), lwd=c(2,2,2,2), col = c("red4","lightblue4","red1","blue3"), box.lty=0)
+
