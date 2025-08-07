@@ -2,7 +2,7 @@
 
 # Created by Marco Veronese Passarella
 
-# Version: 25 June 2024; revised: 25 June 2024
+# Version: 25 June 2024; revised: 7 August 2025
 
 ### PREPARE THE ENVIRONMENT ################################################################################
 
@@ -149,7 +149,8 @@ for (j in 1:nScenarios){
       ## A) Define the matrix of technical coefficients ####
       
       #4D matrix of technical coefficients
-      A4[j,i,,]=c(a11,a21,a12,a22)                   
+      A4[j,i,,] = matrix(c(a11,a12,
+                           a21,a22), nrow=2, byrow=TRUE)                     
       
       #2D matrix of technical coefficients
       A = A4[j,i,,]          
@@ -371,4 +372,5 @@ plot(temp[2,45:nPeriods]-temp[1,45:nPeriods],type="l",
      main="Figure 4  Atmospheric temperature \n after increase in alpha12",
      ylab = 'Change in C',xlab = 'Time',cex.axis=1.5,cex.lab=1.5)
 abline(h=0,col=1,lty=3)
+
 
