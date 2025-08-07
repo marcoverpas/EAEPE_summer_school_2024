@@ -2,7 +2,7 @@
 
 # Created by Marco Veronese Passarella
 
-# Version: 7 June 2024; revised: 7 August 2025
+# Version: 7 June 2024; revised: 25 June 2024
 
 ### PREPARE THE ENVIRONMENT ################################################################################
 
@@ -143,7 +143,7 @@ for (j in 1:nScenarios){
       ## A) Define the matrix of technical coefficients ####
       
       #4D matrix of technical coefficients
-      A4[j,i,,]=c(a11,a12,a21,a22)                   
+      A4[j,i,,]=c(a11,a21,a12,a22)                   
       
       #2D matrix of technical coefficients
       A = A4[j,i,,]          
