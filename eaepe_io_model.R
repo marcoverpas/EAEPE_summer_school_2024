@@ -2,7 +2,7 @@
 
 # Created by Marco Veronese Passarella
 
-# Version: 7 June 2024; revised: 25 June 2024
+# Version: 7 June 2024; revised: 7 August 2025
 
 ### PREPARE THE ENVIRONMENT ################################################################################
 
@@ -104,7 +104,8 @@ for (j in 1:nScenarios){
       ## A) Define the matrix of technical coefficients ####
       
       #4D matrix of technical coefficients
-      A4[j,i,,]=c(a11,a21,a12,a22)                   
+      A4[j,i,,] = matrix(c(a11,a12,
+                           a21,a22), nrow=2, byrow=TRUE)                     
       
       #2D matrix of technical coefficients
       A = A4[j,i,,]          
@@ -245,6 +246,7 @@ lines(x[1,2:45,2]*A[3]*p[1,2:45,1],type="l",lwd=2,lty=1,col="red1")
 lines(x[1,2:45,2]*A[4]*p[1,2:45,2],type="l",lwd=2,lty=1,col="blue3")
 legend("topright",c("1 into 1","2 into 1", "1 into 2","2 into 2" ),  bty = "n",
        cex=1.5, lty=c(1,1,1,1), lwd=c(2,2,2,2), col = c("red4","lightblue4","red1","blue3"), box.lty=0)
+
 
 
 
