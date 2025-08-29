@@ -6,6 +6,8 @@
 
 This repository includes material prepared for the [17th EAEPE Summer School, Rome, 1-4 July](https://eaepe.org/?page=events&side=summer_school&sub=eaepe_summer_school), held in Rome from July 1 to July 4. Specifically, it contains the `R` files that replicate the exercises conducted during the late morning session on Tuesday, July 2.
 
+:unlock: :copyright: *Note*: All the material in this repository is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1). You are encouraged to use it for non-commercial purposes, provided that proper credit is given.
+
 ## Table of Contents
 
 - [1 Introduction](#1_Introduction)
