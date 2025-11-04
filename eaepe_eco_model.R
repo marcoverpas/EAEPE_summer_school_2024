@@ -305,7 +305,7 @@ for (j in 1:nScenarios){
       o2[j,i] = emis[j,i] - cen[j,i]                                      
       
       #Stock of energy reserves
-      k_e[j,i] = k_e[j,i-1] + conv_e[j,i] - en[j,i]                       
+      k_e[j,i] = k_e[j,i-1] + conv_e[j,i] - nen[j,i]                       
       
       #Energy resources converted to reserves 
       conv_e[j,i] = sigma_e*res_e[j,i]                                    
@@ -364,6 +364,7 @@ plot(temp[1,2:30],type="l",
      col="cornflowerblue", lwd=3, lty=1, font.main=1,cex.main=1.5,
      main="Figure 4  Atmospheric temperature \n under baseline scenario",
      ylab = 'C',xlab = 'Time',cex.axis=1.5,cex.lab=1.5)
+
 
 
 
