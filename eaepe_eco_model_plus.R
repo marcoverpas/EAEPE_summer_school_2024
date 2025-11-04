@@ -311,7 +311,7 @@ for (j in 1:nScenarios){
       o2[j,i] = emis[j,i] - cen[j,i]                                      
       
       #Stock of energy reserves
-      k_e[j,i] = k_e[j,i-1] + conv_e[j,i] - en[j,i]                       
+      k_e[j,i] = k_e[j,i-1] + conv_e[j,i] - nen[j,i]                       
       
       #Energy resources converted to reserves 
       conv_e[j,i] = sigma_e*res_e[j,i]                                    
@@ -372,5 +372,6 @@ plot(temp[2,45:nPeriods]-temp[1,45:nPeriods],type="l",
      main="Figure 4  Atmospheric temperature \n after increase in alpha12",
      ylab = 'Change in C',xlab = 'Time',cex.axis=1.5,cex.lab=1.5)
 abline(h=0,col=1,lty=3)
+
 
 
