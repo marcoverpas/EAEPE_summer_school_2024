@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Material for the 17th EAEPE Summer School, Rome, 2024"
+authors:
+  - family-names: "Veronese Passarella"
+    given-names: "Marco"
+    affiliation: "University of L'Aquila; University of Leeds"
+    orcid: "https://orcid.org/0000-0001-7652-5952"
+date-released: 2024-07-02
+url: "https://github.com/marcoverpas/EAEPE_summer_school_2024"
+repository-code: "https://github.com/marcoverpas/EAEPE_summer_school_2024"
+license: "CC-BY-NC-4.0"
+keywords:
+  - stock-flow consistent models
+  - input-output analysis
+  - ecological economics
+  - macroeconomics
+  - R
